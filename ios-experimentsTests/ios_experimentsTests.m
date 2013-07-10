@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Deline Neo. All rights reserved.
 //
 
+#define HC_SHORTHAND
+#import <OCHamcrest/OCHamcrest.h>
 #import "ios_experimentsTests.h"
 
 @implementation ios_experimentsTests
@@ -26,7 +28,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ios-experimentsTests");
+//    STFail(@"Unit tests are not implemented yet in ios-experimentsTests");
 }
 
 @end
