@@ -180,9 +180,9 @@
 			productReference = 734A7EA9178D866C001D26C8 /* ios-experiments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		734A7ECE178D866C001D26C8 /* ios-experimentsTests */ = {
+		734A7ECE178D866C001D26C8 /* ios-experimentsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 734A7EE4178D866C001D26C8 /* Build configuration list for PBXNativeTarget "ios-experimentsTests" */;
+			buildConfigurationList = 734A7EE4178D866C001D26C8 /* Build configuration list for PBXNativeTarget "ios-experimentsAppTests" */;
 			buildPhases = (
 				734A7ECA178D866C001D26C8 /* Sources */,
 				734A7ECB178D866C001D26C8 /* Frameworks */,
@@ -194,7 +194,7 @@
 			dependencies = (
 				734A7ED5178D866C001D26C8 /* PBXTargetDependency */,
 			);
-			name = "ios-experimentsTests";
+			name = "ios-experimentsAppTests";
 			productName = "ios-experimentsTests";
 			productReference = 734A7ECF178D866C001D26C8 /* ios-experimentsTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -222,7 +222,7 @@
 			projectRoot = "";
 			targets = (
 				734A7EA8178D866C001D26C8 /* ios-experiments */,
-				734A7ECE178D866C001D26C8 /* ios-experimentsTests */,
+				734A7ECE178D866C001D26C8 /* ios-experimentsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -454,14 +454,16 @@
 				734A7EE3178D866C001D26C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		734A7EE4178D866C001D26C8 /* Build configuration list for PBXNativeTarget "ios-experimentsTests" */ = {
+		734A7EE4178D866C001D26C8 /* Build configuration list for PBXNativeTarget "ios-experimentsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				734A7EE5178D866C001D26C8 /* Debug */,
 				734A7EE6178D866C001D26C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
