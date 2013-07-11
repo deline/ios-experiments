@@ -1,5 +1,5 @@
 //
-//  DNViewController.h
+//  DNHomeViewController.h
 //  ios-experiments
 //
 //  Created by Deline Neo on 10/07/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DNViewController : UIViewController
+@interface DNHomeViewController : UITableViewController<UITableViewDataSource>
 
 @end
