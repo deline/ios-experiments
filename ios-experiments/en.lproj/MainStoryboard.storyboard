@@ -8,24 +8,30 @@
         <scene sceneID="Diw-ns-iun">
             <objects>
                 <tableViewController id="zY7-5p-pUJ" customClass="DNHomeViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="85" sectionHeaderHeight="22" sectionFooterHeight="22" id="34c-Uv-0lG">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="83" sectionHeaderHeight="10" sectionFooterHeight="10" id="34c-Uv-0lG">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="homeTableCellIdentifier" rowHeight="85" id="6Kc-Ow-Pqd" customClass="DNTableViewCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="85"/>
+                                <rect key="frame" x="0.0" y="46" width="320" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+                                    <rect key="frame" x="10" y="1" width="300" height="84"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMB-us-Sle">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="280" id="Buk-H4-haS"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-vH-dJf">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="260" id="oQr-DQ-tOP"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                             <connections>
@@ -37,12 +43,10 @@
                                 </view>
                                 <color key="backgroundColor" red="0.95176630429999998" green="0.36856369241609971" blue="0.19454719619525468" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="MXg-vH-dJf" secondAttribute="trailing" constant="20" type="default" id="6ur-HY-ueH"/>
-                                    <constraint firstItem="UMB-us-Sle" firstAttribute="leading" secondItem="6Kc-Ow-Pqd" secondAttribute="leading" constant="20" type="default" id="Fk3-h3-JxC"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="top" secondItem="UMB-us-Sle" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Q5g-np-szi"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="6Kc-Ow-Pqd" secondAttribute="leading" constant="20" type="default" id="ZQ4-yk-Yos"/>
-                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="10" id="dpo-bB-tpx"/>
-                                    <constraint firstAttribute="trailing" secondItem="UMB-us-Sle" secondAttribute="trailing" constant="20" type="default" id="wFQ-3I-wrS"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="top" secondItem="UMB-us-Sle" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="RyD-dA-J8O"/>
+                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="6" id="ghH-KR-HEp"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="leading" type="default" id="mK8-tD-0xj"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="centerX" secondItem="6Kc-Ow-Pqd" secondAttribute="centerX" type="default" id="pL8-c9-dqt"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="label" destination="UMB-us-Sle" id="heI-Iu-oEe"/>
