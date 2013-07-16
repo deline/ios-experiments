@@ -31,6 +31,19 @@ install_resource()
       ;;
   esac
 }
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/da.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/de.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/en.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/fr.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/it.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/ja.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/ko.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/nb.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/pl.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/pt-PT.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/ro.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/ru.lproj'
+install_resource 'US2FormValidator/US2FormValidationFramework/US2Localizable/sv.lproj'
 
 rsync -avr --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rm "$RESOURCES_TO_COPY"

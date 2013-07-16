@@ -1,13 +1,16 @@
 PODS:
   - OCHamcrest (2.1.0)
   - OCMock (2.2)
+  - US2FormValidator (1.1.1)
 
 DEPENDENCIES:
   - OCHamcrest
   - OCMock
+  - US2FormValidator
 
 SPEC CHECKSUMS:
   OCHamcrest: 96f5cb58fa0fd4b3609d37fe21e5246b259bba2a
   OCMock: 5300ae6b75398fc3ae6cbf9102191333d35f6852
+  US2FormValidator: 14bf889e27696c05869edf0c87446126eb308831
 
 COCOAPODS: 0.22.1

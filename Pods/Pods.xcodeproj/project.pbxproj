@@ -7,424 +7,682 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A4872BDE9FB41DA9FB11E58 /* Pods-ios-experimentsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D6BCB730164CEC91C7989F /* Pods-ios-experimentsAppTests-dummy.m */; };
-		7AF946863ADD43C89BE43F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EEB488D8DD4F59BFDCBB75 /* Foundation.framework */; };
+		2443FA21CEBF4F8794E8E918 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1702E84294ED9A8D14676 /* Pods-dummy.m */; };
+		4A8216601E58452091079D76 /* Pods-ios-experimentsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A790B7570304D889B343DB7 /* Pods-ios-experimentsAppTests-dummy.m */; };
+		8D12D4E5A33548EA89E4C7CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791DB7BAF276400C9E23F01B /* Foundation.framework */; };
+		AC85602065F94EB3A09C5F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791DB7BAF276400C9E23F01B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00B4DBA408BD4CC7AAC56488 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m; sourceTree = SOURCE_ROOT; };
-		024FC437060C49EA9A40E47D /* OCHamcrest/Source/Core/HCStringDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCStringDescription.m; sourceTree = SOURCE_ROOT; };
-		02BD50CD2F464584B2EF8CED /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h; sourceTree = SOURCE_ROOT; };
-		02F16B46784544878681D8E9 /* OCHamcrest/Source/Core/HCAssertThat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCAssertThat.h; sourceTree = SOURCE_ROOT; };
-		03692698FF1B4DFABD57B1EE /* OCHamcrest/Source/Library/Logical/HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCAllOf.m; sourceTree = SOURCE_ROOT; };
-		0400FB11356149A7846A46AD /* OCMock/Source/OCMock/OCPartialMockRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCPartialMockRecorder.m; sourceTree = SOURCE_ROOT; };
-		0839AFE016BF46C5B095D2CD /* OCMock/Source/OCMock/OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCPartialMockObject.m; sourceTree = SOURCE_ROOT; };
-		08AC51137C184DD5961E6B71 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
-		0CD905F445CD48AAA476D7EE /* OCMock/Source/OCMock/OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCPartialMockObject.h; sourceTree = SOURCE_ROOT; };
-		0E54454138B74BD4BBD894D4 /* OCHamcrest/Source/Library/Number/HCNumberAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCNumberAssert.m; sourceTree = SOURCE_ROOT; };
-		0EE5DFC3BE21448A86524C6C /* OCHamcrest/Source/Library/Text/HCStringContains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringContains.h; sourceTree = SOURCE_ROOT; };
-		1116CCD101524EAAB58DBFFF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = SOURCE_ROOT; };
-		12BD3A413DDB4924AA23F7A1 /* Pods-ios-experimentsAppTests-OCMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCMock.xcconfig"; sourceTree = SOURCE_ROOT; };
-		13FD43A6893E419D8577C51A /* OCMock/Source/OCMock/OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCObserverMockObject.h; sourceTree = SOURCE_ROOT; };
-		151B437B853C4C3A9A2D3A2D /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
-		1A252786C31F480E859A5B45 /* OCHamcrest/Source/OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/OCHamcrest.h; sourceTree = SOURCE_ROOT; };
-		1AE9FF69073044A787CA8720 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
-		1AF620E6A8C84F828B8E37A7 /* OCMock/Source/OCMock/OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCObserverMockObject.m; sourceTree = SOURCE_ROOT; };
-		1C2684FBA88A4C73A4120FCC /* Pods-ios-experimentsAppTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-environment.h"; sourceTree = SOURCE_ROOT; };
-		1CDD5CBE79D04C1998C88A2B /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m; sourceTree = SOURCE_ROOT; };
-		1D865C72C1EB4CA3A1D38023 /* OCHamcrest/Source/Library/Number/HCNumberAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCNumberAssert.h; sourceTree = SOURCE_ROOT; };
-		1FC6034F9CE5412A8132B667 /* OCHamcrest/Source/Library/Text/HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringContains.m; sourceTree = SOURCE_ROOT; };
-		20090A2B5BA5443D93BB74EF /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h; sourceTree = SOURCE_ROOT; };
-		21DB251CA1EA4DB28F1DDBC1 /* OCHamcrest/Source/Library/Object/HCIsNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsNil.h; sourceTree = SOURCE_ROOT; };
-		2231A89FCA5849658F740338 /* OCMock/Source/OCMock/OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCClassMockObject.m; sourceTree = SOURCE_ROOT; };
-		24437D934F7D42DFB31451C1 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h; sourceTree = SOURCE_ROOT; };
-		245C35CF2C684C11B0A3B8C0 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSInvocation+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
-		2630645DC30240119C3CFCC8 /* Pods-ios-experimentsAppTests-OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-OCMock-dummy.m"; sourceTree = SOURCE_ROOT; };
-		266D3DD8560B4226A9B89CDB /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
-		2670CE2A300943CFA4807E7F /* OCHamcrest/Source/Library/Object/HCIsSame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsSame.h; sourceTree = SOURCE_ROOT; };
-		299445FBD2D54E95962FDCED /* OCMock/Source/OCMock/OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMPassByRefSetter.h; sourceTree = SOURCE_ROOT; };
-		29949D2AA2F94FF08ED96260 /* OCMock/Source/OCMock/OCMObserverRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMObserverRecorder.h; sourceTree = SOURCE_ROOT; };
-		29A1C9BAFE6D4380A5D03442 /* OCHamcrest/Source/Library/Collection/HCIsIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsIn.m; sourceTree = SOURCE_ROOT; };
-		29B5044BB9254E358B7BDBB4 /* OCHamcrest/Source/Library/Logical/HCIsAnything.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCIsAnything.h; sourceTree = SOURCE_ROOT; };
-		2BA2D82CC48C4604BE557F97 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = SOURCE_ROOT; };
-		2C6E0AA283AF43F797069991 /* OCHamcrest/Source/Library/Object/HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsTypeOf.m; sourceTree = SOURCE_ROOT; };
-		32745E5057594BFC848A0EE7 /* OCMock/Source/OCMock/OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMBlockCaller.h; sourceTree = SOURCE_ROOT; };
-		328CD84EA4B940E18819756F /* OCHamcrest/Source/Library/Object/HCClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCClassMatcher.m; sourceTree = SOURCE_ROOT; };
-		32D6BCB730164CEC91C7989F /* Pods-ios-experimentsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-dummy.m"; sourceTree = SOURCE_ROOT; };
-		341C82064599477BB8ACE2B1 /* OCHamcrest/Source/Core/HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCBaseMatcher.h; sourceTree = SOURCE_ROOT; };
-		37C7160547684EBABB6242DE /* OCHamcrest/Source/Library/Text/HCStringStartsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringStartsWith.h; sourceTree = SOURCE_ROOT; };
-		37EEB488D8DD4F59BFDCBB75 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		399BB3046BD048A794CFEB4E /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m; sourceTree = SOURCE_ROOT; };
-		3AD093A73B6942C7AFAD85DC /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h; sourceTree = SOURCE_ROOT; };
-		3D5FD4B52BA74E598EAACD52 /* OCHamcrest/Source/Library/Object/HCIsSame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsSame.m; sourceTree = SOURCE_ROOT; };
-		3F72C7A33E8B414FB9385524 /* OCHamcrest/Source/Library/Decorator/HCIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Decorator/HCIs.m; sourceTree = SOURCE_ROOT; };
-		43B7E6AF4D9D4DFCA720B241 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h; sourceTree = SOURCE_ROOT; };
-		447E616BC1C84DE489C1A006 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringEndsWith.h; sourceTree = SOURCE_ROOT; };
-		49E25644EB624AE796158632 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m; sourceTree = SOURCE_ROOT; };
-		4A1573CAEF404151B4755EBD /* OCHamcrest/Source/Library/Number/HCOrderingComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCOrderingComparison.m; sourceTree = SOURCE_ROOT; };
-		4A954474BE944E518A597947 /* OCMock/Source/OCMock/OCMBlockCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMBlockCaller.m; sourceTree = SOURCE_ROOT; };
-		4CB982D686B84DA9811EA8EE /* Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch"; sourceTree = SOURCE_ROOT; };
-		4DD5DB6531DC4488B731C472 /* OCHamcrest/Source/Library/Collection/HCHasCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCHasCount.h; sourceTree = SOURCE_ROOT; };
-		4DD7AD8BEEB14898ACBD9EE4 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCSubstringMatcher.m; sourceTree = SOURCE_ROOT; };
-		50352E34D8184247A1B73DE1 /* OCHamcrest/Source/Library/Object/HCHasProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCHasProperty.h; sourceTree = SOURCE_ROOT; };
-		518A9D330D2E41BEA2ED12C7 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringEndsWith.m; sourceTree = SOURCE_ROOT; };
-		533B4FCE484F47FA9316CE69 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h; sourceTree = SOURCE_ROOT; };
-		55AC01FD9B724DB3AFEA7A9A /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m; sourceTree = SOURCE_ROOT; };
-		5655D6D24C2A4DFB996483B7 /* OCHamcrest/Source/Library/Object/HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsNil.m; sourceTree = SOURCE_ROOT; };
-		56A5D4A678774AE1B09A7896 /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = SOURCE_ROOT; };
-		56BBC9B36D2443F7970C5FE7 /* OCHamcrest/Source/Core/HCBaseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCBaseMatcher.m; sourceTree = SOURCE_ROOT; };
-		57C4E884B7F04BFB967444C4 /* OCMock/Source/OCMock/OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMRealObjectForwarder.h; sourceTree = SOURCE_ROOT; };
-		5EF02513D1764996AF19DD96 /* OCHamcrest/Source/Library/Object/HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCClassMatcher.h; sourceTree = SOURCE_ROOT; };
-		6EC5AF9883514612A21BF587 /* OCMock/Source/OCMock/OCMockRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMockRecorder.h; sourceTree = SOURCE_ROOT; };
-		6FF792FC823F4894A2BA8284 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h; sourceTree = SOURCE_ROOT; };
-		7161605FB93E4D27B0E9C00A /* OCHamcrest/Source/Library/Logical/HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCIsAnything.m; sourceTree = SOURCE_ROOT; };
-		7240B16646BD4C129A6D5BAB /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCSubstringMatcher.h; sourceTree = SOURCE_ROOT; };
-		769033F11D184C3AAE2585C0 /* OCHamcrest/Source/Core/HCStringDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCStringDescription.h; sourceTree = SOURCE_ROOT; };
-		78665AF9EB09473EA700DAB2 /* Pods-ios-experimentsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-experimentsAppTests-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
-		7B8A856CFF1F4AC8A200E0BF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = SOURCE_ROOT; };
-		7CB02E2C4F094931A6F1609B /* OCMock/Source/OCMock/OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMObserverRecorder.m; sourceTree = SOURCE_ROOT; };
-		7DDC5BA9DAD44F50A54A4C24 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m; sourceTree = SOURCE_ROOT; };
-		8428AB1D498240E8979AA3CB /* OCMock/Source/OCMock/OCMockRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMockRecorder.m; sourceTree = SOURCE_ROOT; };
-		84768E0F1F1849A2A87DCAAA /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCConformsToProtocol.h; sourceTree = SOURCE_ROOT; };
-		8538BCDCA1CA43EB933915F3 /* OCHamcrest/Source/Library/Collection/HCHasCount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCHasCount.m; sourceTree = SOURCE_ROOT; };
-		8A8DD7EE8D074642B4759FAB /* OCMock/Source/OCMock/OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCProtocolMockObject.h; sourceTree = SOURCE_ROOT; };
-		8B22AC0518C248C687485125 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h; sourceTree = SOURCE_ROOT; };
-		8BD21D2D25194C44AA1814B4 /* OCMock/Source/OCMock/OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMNotificationPoster.m; sourceTree = SOURCE_ROOT; };
-		8C0E705C7A0B45EBA53FB728 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsInstanceOf.m; sourceTree = SOURCE_ROOT; };
-		8EE261A5F96C44149D76A6E0 /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Decorator/HCDescribedAs.h; sourceTree = SOURCE_ROOT; };
-		8EFFD27F5B1140F590B72189 /* OCHamcrest/Source/Library/Logical/HCIsNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCIsNot.h; sourceTree = SOURCE_ROOT; };
-		8F36AC4ED714437AA863713E /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h; sourceTree = SOURCE_ROOT; };
-		9028BE19A1F64E278FB8F70C /* OCHamcrest/Source/Library/Object/HCHasDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCHasDescription.h; sourceTree = SOURCE_ROOT; };
-		9065192C837A4342A7FA5BE0 /* OCMock/Source/OCMock/OCProtocolMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCProtocolMockObject.m; sourceTree = SOURCE_ROOT; };
-		90CA291CE3B94B7E980DB504 /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = SOURCE_ROOT; };
-		9254E235CA7547CB99C32469 /* OCHamcrest/Source/Core/HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCMatcher.h; sourceTree = SOURCE_ROOT; };
-		935BE428EC564EE0AC62DD48 /* OCHamcrest/Source/Library/Object/HCIsTypeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsTypeOf.h; sourceTree = SOURCE_ROOT; };
-		94245222E8E447F5AD9A4D38 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-experimentsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9437CC6EE7984AE49FFC1B53 /* OCHamcrest/Source/Library/Object/HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsEqual.m; sourceTree = SOURCE_ROOT; };
-		94E6F7EC45DD4F09A15E91DA /* OCMock/Source/OCMock/OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMPassByRefSetter.m; sourceTree = SOURCE_ROOT; };
-		9A353F3AB4AB4D31A967BC02 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h; sourceTree = SOURCE_ROOT; };
-		9A94EF9B5DB34F359FEA1D78 /* OCMock/Source/OCMock/OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMNotificationPoster.h; sourceTree = SOURCE_ROOT; };
-		9BF5B08C53154B26997DEA9C /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m; sourceTree = SOURCE_ROOT; };
-		9DA05793D1514112AA144568 /* OCMock/Source/OCMock/OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMockObject.h; sourceTree = SOURCE_ROOT; };
-		9E52D468E273457A821F020E /* Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		9FB912E91FC2430C9FA950BB /* OCMock/Source/OCMock/OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMArg.h; sourceTree = SOURCE_ROOT; };
-		A1E255A245E64464A40068CB /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h; sourceTree = SOURCE_ROOT; };
-		A1F3A92CD45E4BE288CD7683 /* Pods-ios-experimentsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-experimentsAppTests-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
-		A20266D0FA4D4BB8AFAC79D7 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
-		A5D1875BCA414C04B27941ED /* OCHamcrest/Source/Library/Object/HCHasProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCHasProperty.m; sourceTree = SOURCE_ROOT; };
-		A67555A11F8B4A1983804976 /* OCHamcrest/Source/Core/HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCAssertThat.m; sourceTree = SOURCE_ROOT; };
-		A750D94BAD1146DDB4C9E8C4 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCConformsToProtocol.m; sourceTree = SOURCE_ROOT; };
-		A9F0BA11E7A54DF89C320F27 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCIsCloseTo.h; sourceTree = SOURCE_ROOT; };
-		ACDEFD374940470B8A05AE0E /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m; sourceTree = SOURCE_ROOT; };
-		ACEF853C7625416DA93DFD4E /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h; sourceTree = SOURCE_ROOT; };
-		ADC774E1ECBE44D6872F5E7A /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h; sourceTree = SOURCE_ROOT; };
-		ADFB51312541493995DB4AE1 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
-		B30649D4C33243D1AD9F858C /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
-		B33D7D37AFBB4AC18452F4BF /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Decorator/HCDescribedAs.m; sourceTree = SOURCE_ROOT; };
-		B405A6BBB4F64BA2AA1407F6 /* ../Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7CC44842CBA405E992CF5D2 /* Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
-		B8E2F8BB65594400AB181D6E /* Pods-ios-experimentsAppTests-OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-OCMock-prefix.pch"; sourceTree = SOURCE_ROOT; };
-		BCD3F9606F6645D78107C473 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m; sourceTree = SOURCE_ROOT; };
-		BEC92A11582C472B81FCC83A /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m; sourceTree = SOURCE_ROOT; };
-		BF96CCEE1FA8414FA8D4B5BC /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h; sourceTree = SOURCE_ROOT; };
-		BF9EAE105424427CBFD9B3FE /* Pods-ios-experimentsAppTests-OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-OCHamcrest-dummy.m"; sourceTree = SOURCE_ROOT; };
-		BFBD97810B104F31B8AAB0CF /* Pods-ios-experimentsAppTests-OCMock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCMock-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
-		C1DF6183AD0E4083B54700B5 /* OCMock/Source/OCMock/OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMConstraint.m; sourceTree = SOURCE_ROOT; };
-		C45211AF7DA94FF5916C44F2 /* OCHamcrest/Source/Library/Logical/HCAnyOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCAnyOf.m; sourceTree = SOURCE_ROOT; };
-		C6BEC12606F34EEDBF709241 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m; sourceTree = SOURCE_ROOT; };
-		C9D35B306819402D988902D6 /* OCMock/Source/OCMock/OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMConstraint.h; sourceTree = SOURCE_ROOT; };
-		CC12C38B702D497785E115F2 /* OCMock/Source/OCMock/OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMock.h; sourceTree = SOURCE_ROOT; };
-		CC510EC0903045849683753D /* Pods-ios-experimentsAppTests-OCHamcrest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCHamcrest.xcconfig"; sourceTree = SOURCE_ROOT; };
-		CD24954F5F054AB3A0B7B676 /* OCMock/Source/OCMock/OCPartialMockRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCPartialMockRecorder.h; sourceTree = SOURCE_ROOT; };
-		CD568BB125964D79B2BAE927 /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
-		CDC26AA2FFB549A2B2F10C1B /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m; sourceTree = SOURCE_ROOT; };
-		CFDAD12DBFF0487AB1AC4736 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCIsCloseTo.m; sourceTree = SOURCE_ROOT; };
-		CFF51FE8D6EB4B9287274AB6 /* OCMock/Source/OCMock/OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCClassMockObject.h; sourceTree = SOURCE_ROOT; };
-		D0D42FCB2D0F4F2F83730693 /* OCHamcrest/Source/Library/Object/HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCHasDescription.m; sourceTree = SOURCE_ROOT; };
-		D69DF75B5F884C7F84BBE5F6 /* OCHamcrest/Source/Library/Logical/HCAnyOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCAnyOf.h; sourceTree = SOURCE_ROOT; };
-		D9EA3CFDE47E4584B91C3D84 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m; sourceTree = SOURCE_ROOT; };
-		DAED546BCD6C4F708AB235D9 /* OCHamcrest/Source/Library/Text/HCStringStartsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringStartsWith.m; sourceTree = SOURCE_ROOT; };
-		DCF9D30299044AE29F4481C7 /* OCMock/Source/OCMock/OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMArg.m; sourceTree = SOURCE_ROOT; };
-		E2201DF8844C4B07A79539B0 /* OCMock/Source/OCMock/OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMockObject.m; sourceTree = SOURCE_ROOT; };
-		E9EB3E197DA5490D9C042AA5 /* OCHamcrest/Source/Core/HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCSelfDescribing.h; sourceTree = SOURCE_ROOT; };
-		EA1CE147EA094446B071FB66 /* Pods-ios-experimentsAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-experimentsAppTests-resources.sh"; sourceTree = SOURCE_ROOT; };
-		EDA9484C8E3947F0B5E2545A /* OCHamcrest/Source/Library/Logical/HCIsNot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCIsNot.m; sourceTree = SOURCE_ROOT; };
-		EF0DC7766EED4F5DA7B508B4 /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h; sourceTree = SOURCE_ROOT; };
-		EF1F93B8955A49CFA2802DC2 /* OCHamcrest/Source/Library/Object/HCIsEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsEqual.h; sourceTree = SOURCE_ROOT; };
-		EF2210990AD24CF4B159ECA7 /* OCHamcrest/Source/Core/HCBaseDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCBaseDescription.m; sourceTree = SOURCE_ROOT; };
-		F01C8ECB59754BC4B723C99D /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
-		F13CED38DD73492F9987E977 /* OCHamcrest/Source/Library/Number/HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCOrderingComparison.h; sourceTree = SOURCE_ROOT; };
-		F1756A6C220549A688F85119 /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
-		F1F8B0E6C40046C89889A06E /* OCMock/Source/OCMock/OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMRealObjectForwarder.m; sourceTree = SOURCE_ROOT; };
-		F2DB313DF2534BD8BD060ED1 /* OCHamcrest/Source/Core/HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCDescription.h; sourceTree = SOURCE_ROOT; };
-		F32838F212A048058DEAA6FF /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = SOURCE_ROOT; };
-		F4EDE12D78CF436C959F13A0 /* OCHamcrest/Source/Library/Logical/HCAllOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCAllOf.h; sourceTree = SOURCE_ROOT; };
-		F5F0C6DC655042C6A80494F4 /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
-		F67C0AA5D3384DECAEFCB942 /* OCMock/Source/OCMock/OCMReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
-		F80C2A605DE247CA85D0CEFE /* OCMock/Source/OCMock/OCMReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
-		F9AA44D1434A4EF399E72E25 /* OCHamcrest/Source/Library/Collection/HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsIn.h; sourceTree = SOURCE_ROOT; };
-		FAF35790CA504A4A97CD9D26 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsInstanceOf.h; sourceTree = SOURCE_ROOT; };
-		FBD297B5AE43456989BDF1AB /* OCHamcrest/Source/Library/Decorator/HCIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Decorator/HCIs.h; sourceTree = SOURCE_ROOT; };
-		FC1A1834931042D0AE3626DD /* OCHamcrest/Source/Core/HCBaseDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCBaseDescription.h; sourceTree = SOURCE_ROOT; };
-		FDBBD858AC6C47F184EF8E34 /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m; sourceTree = SOURCE_ROOT; };
-		FF8BBB5E16D44A3A83C9583F /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m; sourceTree = SOURCE_ROOT; };
+		004EC1D146404F86833AB37E /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.h; sourceTree = SOURCE_ROOT; };
+		020978FA04034B8C85B43AD8 /* Pods-ios-experimentsAppTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-environment.h"; sourceTree = SOURCE_ROOT; };
+		06380BAF0FD548228DD46D30 /* Pods-ios-experimentsAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-experimentsAppTests-resources.sh"; sourceTree = SOURCE_ROOT; };
+		06765B0CE94041ACA0549E8B /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Decorator/HCDescribedAs.h; sourceTree = SOURCE_ROOT; };
+		095DA19BE05645A2A98790D2 /* US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.h; sourceTree = SOURCE_ROOT; };
+		0C897F1828B24DB9A6D8E611 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIDelegate.h; sourceTree = SOURCE_ROOT; };
+		0C9507CB014C4491ABBFF6BD /* OCMock/Source/OCMock/OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCClassMockObject.m; sourceTree = SOURCE_ROOT; };
+		0CAF7FF4A82C497DBCAD2596 /* OCHamcrest/Source/Library/Text/HCStringStartsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringStartsWith.m; sourceTree = SOURCE_ROOT; };
+		0D7830E518884A138280CFEA /* OCHamcrest/Source/Library/Logical/HCAnyOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCAnyOf.h; sourceTree = SOURCE_ROOT; };
+		0E4D6471F5D74881AE20295A /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.m; sourceTree = SOURCE_ROOT; };
+		0E52DD66B8A348F6BC20D3B8 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.m; sourceTree = SOURCE_ROOT; };
+		0E735FF2CF3E4C5F88B91FD0 /* OCMock/Source/OCMock/OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCObserverMockObject.m; sourceTree = SOURCE_ROOT; };
+		0F637D83AEDA48FF98511873 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m; sourceTree = SOURCE_ROOT; };
+		0FCB0D94452D49FE9E7B2575 /* Pods-US2FormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-US2FormValidator.xcconfig"; sourceTree = SOURCE_ROOT; };
+		11BC8A0E05E04FB8A946B7DE /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h; sourceTree = SOURCE_ROOT; };
+		1201ADB652804E8C8A3A3823 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.h; sourceTree = SOURCE_ROOT; };
+		14BBC07FD55744F7B0111514 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m; sourceTree = SOURCE_ROOT; };
+		152864F9A0584D91AB174937 /* US2FormValidator/US2FormValidationFramework/US2Localizable/it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/it.lproj; sourceTree = SOURCE_ROOT; };
+		156570ECF5E64B469990DF31 /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m; sourceTree = SOURCE_ROOT; };
+		16196DCD8A05426C9407A0F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741EFB82A2042DE8D91173F /* Pods-US2FormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-US2FormValidator-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		19EEF6C492E84D908F5580B7 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = SOURCE_ROOT; };
+		1AD72E623AC7457C83879E40 /* OCHamcrest/Source/Library/Object/HCIsEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsEqual.h; sourceTree = SOURCE_ROOT; };
+		1B2ACA734FAF4CF8A5AB6776 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.h; sourceTree = SOURCE_ROOT; };
+		1E74E9C94C0C4E1A8AE6F895 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = SOURCE_ROOT; };
+		1F1BF682F78940318C6939A7 /* OCHamcrest/Source/Library/Collection/HCHasCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCHasCount.h; sourceTree = SOURCE_ROOT; };
+		1F8744E6B18549AEA596F4CC /* US2FormValidator/US2FormValidationFramework/source/base/US2Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2Localization.h; sourceTree = SOURCE_ROOT; };
+		1FCFE23838B74FC6867A71AA /* OCMock/Source/OCMock/OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMBlockCaller.h; sourceTree = SOURCE_ROOT; };
+		22E0552500C14319974B22A5 /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m; sourceTree = SOURCE_ROOT; };
+		23E223AB56F645D2A8749908 /* Pods-ios-experimentsAppTests-US2FormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-US2FormValidator-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		23EB0B2F34A84A84A0598F73 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.h; sourceTree = SOURCE_ROOT; };
+		2439C6032F3C449FAE7021F3 /* OCHamcrest/Source/Library/Object/HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsEqual.m; sourceTree = SOURCE_ROOT; };
+		24A025224B6A4C7DA75CC70D /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = SOURCE_ROOT; };
+		24E5FBC3DE164BA1AE2B1FFC /* OCMock/Source/OCMock/OCMBlockCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMBlockCaller.m; sourceTree = SOURCE_ROOT; };
+		26794FD889F244459D2B370D /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Decorator/HCDescribedAs.m; sourceTree = SOURCE_ROOT; };
+		27A68A63A4034F929CF0D7B0 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.h; sourceTree = SOURCE_ROOT; };
+		29207BC9A7C24634ADBCEFD0 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.h; sourceTree = SOURCE_ROOT; };
+		2A2B96E2537F4B8E92DEB076 /* Pods-ios-experimentsAppTests-OCMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCMock.xcconfig"; sourceTree = SOURCE_ROOT; };
+		2A790B7570304D889B343DB7 /* Pods-ios-experimentsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-dummy.m"; sourceTree = SOURCE_ROOT; };
+		2BA80D1F50464915A4CB682A /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = SOURCE_ROOT; };
+		2C1D4A713B8A47488EE65202 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringEndsWith.m; sourceTree = SOURCE_ROOT; };
+		2C41ABD65B254698910359D0 /* US2FormValidator/US2FormValidationFramework/US2Localizable/da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/da.lproj; sourceTree = SOURCE_ROOT; };
+		2D3DF612CCCA4987A7BF4D94 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.h; sourceTree = SOURCE_ROOT; };
+		2D6C1B0028724F27BDF2EEF5 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCConformsToProtocol.h; sourceTree = SOURCE_ROOT; };
+		2D8A2F478E674892A5FA8EC1 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m; sourceTree = SOURCE_ROOT; };
+		2DF986AA1EFE47F7A5809CEB /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.h; sourceTree = SOURCE_ROOT; };
+		2EBDB270423C4B4FA7C04F61 /* OCMock/Source/OCMock/OCPartialMockRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCPartialMockRecorder.m; sourceTree = SOURCE_ROOT; };
+		301DA5EBF4D94919B4BFF5D1 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m; sourceTree = SOURCE_ROOT; };
+		337295F6F5CF4CFB8F677D47 /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
+		3425B2E515C24EF89C73003C /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
+		34467185C5F749998A67A5E8 /* US2FormValidator/US2FormValidationFramework/US2Localizable/pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/pl.lproj; sourceTree = SOURCE_ROOT; };
+		37C8E72A12E64D7E96447EC3 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.m; sourceTree = SOURCE_ROOT; };
+		37E04B4B51F44B26B497DE83 /* Pods-ios-experimentsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-experimentsAppTests-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		38302F075C654B78AD821563 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.m; sourceTree = SOURCE_ROOT; };
+		39A33FEA633D48BDACE2F755 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = SOURCE_ROOT; };
+		39D2B5B270B64C3D84642DD5 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/ru.lproj; sourceTree = SOURCE_ROOT; };
+		3AE5810A0F264F87B62DC381 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.m; sourceTree = SOURCE_ROOT; };
+		3B3A39CB70834F0281B26A5D /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.m; sourceTree = SOURCE_ROOT; };
+		3B73706A47514E7FAE7B0B17 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.m; sourceTree = SOURCE_ROOT; };
+		3BA6F8E688384994B7B8FD99 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.m; sourceTree = SOURCE_ROOT; };
+		3C363DB9A1CF4396BBAC3ABD /* OCMock/Source/OCMock/OCMockRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMockRecorder.m; sourceTree = SOURCE_ROOT; };
+		3CE0ABB890624FA89352AA3D /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.h; sourceTree = SOURCE_ROOT; };
+		3FB7C0C3B4824473AEA0E76E /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = SOURCE_ROOT; };
+		40B6F64573534CA68DF59745 /* OCMock/Source/OCMock/OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMObserverRecorder.m; sourceTree = SOURCE_ROOT; };
+		40D0BB588C6E4133B31B983E /* OCHamcrest/Source/OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/OCHamcrest.h; sourceTree = SOURCE_ROOT; };
+		410EFF54708B410CBE86742D /* OCHamcrest/Source/Library/Logical/HCAnyOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCAnyOf.m; sourceTree = SOURCE_ROOT; };
+		4213098281214099AE46DB8B /* OCHamcrest/Source/Library/Number/HCNumberAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCNumberAssert.m; sourceTree = SOURCE_ROOT; };
+		449D68DA077146DA84F94423 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivateDelegate.h; sourceTree = SOURCE_ROOT; };
+		459F229049064CFD9C618F56 /* OCHamcrest/Source/Library/Object/HCClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCClassMatcher.m; sourceTree = SOURCE_ROOT; };
+		46156EED05E64FA9A906C425 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.m; sourceTree = SOURCE_ROOT; };
+		468A39DDAD924F99A617A0E3 /* OCHamcrest/Source/Core/HCBaseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCBaseMatcher.m; sourceTree = SOURCE_ROOT; };
+		46B1702E84294ED9A8D14676 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		48EED3C91220400FBFB00BFA /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		49630AE20A1445729E1DA49F /* OCHamcrest/Source/Library/Object/HCHasProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCHasProperty.m; sourceTree = SOURCE_ROOT; };
+		4A127E3F69A94F92AB2D1D1B /* OCMock/Source/OCMock/OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMNotificationPoster.h; sourceTree = SOURCE_ROOT; };
+		4BA75484A91E4D128049F45B /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
+		4C1223642E7E43D5ABEE6DA0 /* OCHamcrest/Source/Core/HCBaseDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCBaseDescription.h; sourceTree = SOURCE_ROOT; };
+		4CD7A684442943798C0557B2 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
+		4D99EF52735A4ED98D87F225 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.h; sourceTree = SOURCE_ROOT; };
+		4E9A28589D254A048F3D528C /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h; sourceTree = SOURCE_ROOT; };
+		4F4CB254EEE7493882A5336D /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
+		4F74845A497D46C79CD5ECCA /* OCMock/Source/OCMock/OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMArg.m; sourceTree = SOURCE_ROOT; };
+		50AC7813F0804655A217E1E0 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.h; sourceTree = SOURCE_ROOT; };
+		5123BAC132044AF6BADF2690 /* OCHamcrest/Source/Core/HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCSelfDescribing.h; sourceTree = SOURCE_ROOT; };
+		54C3855DEED24FBCA2FC39FF /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h; sourceTree = SOURCE_ROOT; };
+		57DC31D48E2041AAA93C7C32 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.h; sourceTree = SOURCE_ROOT; };
+		583085D39BF94E9EADA55424 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/ja.lproj; sourceTree = SOURCE_ROOT; };
+		5856440AEE7745208C891C65 /* OCHamcrest/Source/Library/Decorator/HCIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Decorator/HCIs.h; sourceTree = SOURCE_ROOT; };
+		598E6BF8C620454EB3166634 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.m; sourceTree = SOURCE_ROOT; };
+		5C6EBDAD6CF24A0F9A409347 /* Pods-ios-experimentsAppTests-US2FormValidator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-US2FormValidator-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		5DA1382CC31C42988F5D1326 /* OCMock/Source/OCMock/OCMReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMReturnValueProvider.h; sourceTree = SOURCE_ROOT; };
+		5E489C9BBEF240B3A0118CDF /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h; sourceTree = SOURCE_ROOT; };
+		628409E7F63D49CEBE1EC7B6 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h; sourceTree = SOURCE_ROOT; };
+		631FF97AB420417D9BF01F19 /* OCMock/Source/OCMock/OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCClassMockObject.h; sourceTree = SOURCE_ROOT; };
+		63C86D99FB8148DD8BC29830 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/ko.lproj; sourceTree = SOURCE_ROOT; };
+		642D930B72F84F5BBE1451CE /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
+		656B0E32C39E44279A65AFBB /* US2FormValidator/US2FormValidationFramework/source/base/US2Validator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2Validator.h; sourceTree = SOURCE_ROOT; };
+		657E26E35C95429C8787B647 /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
+		67F7F7EB4AD54E68BA96C839 /* OCHamcrest/Source/Library/Logical/HCIsNot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCIsNot.m; sourceTree = SOURCE_ROOT; };
+		67FDE08F0A4D41648432A43A /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-experimentsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A91AF3D083743FF8C550E4D /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
+		6AF8C452C9FA42BAB377A973 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m; sourceTree = SOURCE_ROOT; };
+		6B1325E9B38643C894950502 /* OCHamcrest/Source/Library/Object/HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCClassMatcher.h; sourceTree = SOURCE_ROOT; };
+		6B35C1D6FCCF468CA3AADFF6 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCIsCloseTo.h; sourceTree = SOURCE_ROOT; };
+		6C2C77DDE8B94B9D8A025CB3 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m; sourceTree = SOURCE_ROOT; };
+		6C33CF08BB914971BA934879 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.m; sourceTree = SOURCE_ROOT; };
+		6CFEF70B53BD4A7EB4A92FCF /* OCHamcrest/Source/Core/HCStringDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCStringDescription.h; sourceTree = SOURCE_ROOT; };
+		6D41F8CD0FD24A81B209BE35 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.h; sourceTree = SOURCE_ROOT; };
+		6DF0B0A0701640AA996E5FB8 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m; sourceTree = SOURCE_ROOT; };
+		6E2507AFE6F842C2ACF006DF /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		6E38DBCF1C7B4F0582A52D54 /* Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		700B7924E6434AA8A80BBA71 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.h; sourceTree = SOURCE_ROOT; };
+		70D2F9EDE16148F58236FFE9 /* OCHamcrest/Source/Library/Decorator/HCIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Decorator/HCIs.m; sourceTree = SOURCE_ROOT; };
+		710B205D6DB649D5BDBD1D03 /* OCMock/Source/OCMock/OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMConstraint.m; sourceTree = SOURCE_ROOT; };
+		72CEEA287F344A7F97317CC4 /* OCMock/Source/OCMock/OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMPassByRefSetter.h; sourceTree = SOURCE_ROOT; };
+		76401640E37049ADB108DB12 /* OCMock/Source/OCMock/OCPartialMockRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCPartialMockRecorder.h; sourceTree = SOURCE_ROOT; };
+		786918AB8B9F45B3B768DB9B /* OCMock/Source/OCMock/OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMock.h; sourceTree = SOURCE_ROOT; };
+		791DB7BAF276400C9E23F01B /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79BAF826452E45FD9A0D3DC3 /* OCMock/Source/OCMock/OCMockRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMockRecorder.h; sourceTree = SOURCE_ROOT; };
+		7A024C65CA73423DA1017C17 /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h; sourceTree = SOURCE_ROOT; };
+		7A147DD68FCE48AE8BF5AFF7 /* OCHamcrest/Source/Library/Logical/HCIsNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCIsNot.h; sourceTree = SOURCE_ROOT; };
+		7B0A50218B074F11A16A7705 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringEndsWith.h; sourceTree = SOURCE_ROOT; };
+		7BA256D56EAA45CE9D121E50 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCSubstringMatcher.h; sourceTree = SOURCE_ROOT; };
+		7CD508C0723F46FFAF78C786 /* OCHamcrest/Source/Library/Text/HCStringContains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringContains.h; sourceTree = SOURCE_ROOT; };
+		7D2AEE5C1C0345489C7429FB /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.m; sourceTree = SOURCE_ROOT; };
+		7EEF9D13476E441C91E1F6FF /* OCHamcrest/Source/Library/Text/HCStringStartsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCStringStartsWith.h; sourceTree = SOURCE_ROOT; };
+		7F18C98091F042EF94255CC7 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/ro.lproj; sourceTree = SOURCE_ROOT; };
+		80546FC8304C47AA9A2818CE /* OCHamcrest/Source/Library/Object/HCIsTypeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsTypeOf.h; sourceTree = SOURCE_ROOT; };
+		855AA34B0E4F469DA40B8AEA /* OCHamcrest/Source/Library/Logical/HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCAllOf.m; sourceTree = SOURCE_ROOT; };
+		86B0E00DF9C14854989CA2A8 /* OCHamcrest/Source/Core/HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCBaseMatcher.h; sourceTree = SOURCE_ROOT; };
+		873BC4164910443795F6C0A8 /* US2FormValidator/US2FormValidationFramework/US2Localizable/de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/de.lproj; sourceTree = SOURCE_ROOT; };
+		876BA5F112604F39B5C66C73 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
+		89FF7D10A68D4A28B8468F88 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m; sourceTree = SOURCE_ROOT; };
+		8A0B2F54A92C43E783952DE3 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
+		8ABC1A67A62946C886DA8B66 /* US2FormValidator/US2FormValidationFramework/source/base/US2Form.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2Form.h; sourceTree = SOURCE_ROOT; };
+		8ADAB75FF5744764936D0754 /* OCMock/Source/OCMock/OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMConstraint.h; sourceTree = SOURCE_ROOT; };
+		8B56D55C1D55480A9B7F990D /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		8B601880E1694E46B426604A /* OCMock/Source/OCMock/OCMObserverRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMObserverRecorder.h; sourceTree = SOURCE_ROOT; };
+		8B98CAE72D7F41409EAAD764 /* OCHamcrest/Source/Library/Object/HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCHasDescription.m; sourceTree = SOURCE_ROOT; };
+		8B9EC541CC8744E5ADDB2718 /* OCHamcrest/Source/Library/Object/HCIsSame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsSame.m; sourceTree = SOURCE_ROOT; };
+		8CDA9111B85D49DDAC43D2B6 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.m; sourceTree = SOURCE_ROOT; };
+		8D8D82CCABEE4440976B72A3 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.m; sourceTree = SOURCE_ROOT; };
+		8F3F83993A5343F0B523008E /* OCMock/Source/OCMock/OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMRealObjectForwarder.m; sourceTree = SOURCE_ROOT; };
+		91E33F005183414EB9CD9E23 /* Pods-ios-experimentsAppTests-US2FormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-US2FormValidator-dummy.m"; sourceTree = SOURCE_ROOT; };
+		9223FE022A8046B78C8B7BB8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9264429B663942C99E3322FF /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.h; sourceTree = SOURCE_ROOT; };
+		9570A459800A479EA686695E /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.m; sourceTree = SOURCE_ROOT; };
+		9571BF19E82D497395D3CC96 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.h; sourceTree = SOURCE_ROOT; };
+		96089CFC953A460CB30631A2 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.m; sourceTree = SOURCE_ROOT; };
+		962673AD94FF4E128AF8DDA2 /* US2FormValidator/US2FormValidationFramework/US2Localizable/en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/en.lproj; sourceTree = SOURCE_ROOT; };
+		99B15AFB663445479539331D /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h; sourceTree = SOURCE_ROOT; };
+		9BD815913616430D88BA1C10 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.h; sourceTree = SOURCE_ROOT; };
+		9E47B816191240208F65E125 /* OCMock/Source/OCMock/OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCProtocolMockObject.h; sourceTree = SOURCE_ROOT; };
+		9E982F5EB44844D0843169F7 /* US2FormValidator/US2FormValidationFramework/source/base/US2Validator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2Validator.m; sourceTree = SOURCE_ROOT; };
+		9EBC59D921114DBEAF7DB5AF /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h; sourceTree = SOURCE_ROOT; };
+		9F5E4D69600C4187B6219F98 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsInstanceOf.h; sourceTree = SOURCE_ROOT; };
+		9F83BB765C374E02874C5E0E /* OCMock/Source/OCMock/OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCObserverMockObject.h; sourceTree = SOURCE_ROOT; };
+		9F99EA4A80F1426BB92BAF92 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.m; sourceTree = SOURCE_ROOT; };
+		A0088A7B08DB47CFB7E8A81F /* Pods-ios-experimentsAppTests-OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-OCMock-dummy.m"; sourceTree = SOURCE_ROOT; };
+		A037BD53847C4F8E93144AE3 /* OCHamcrest/Source/Library/Collection/HCIsIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsIn.m; sourceTree = SOURCE_ROOT; };
+		A0B3678DFA554105A6742203 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.h; sourceTree = SOURCE_ROOT; };
+		A1040FB889C2494EBAE13EAE /* US2FormValidator/US2FormValidationFramework/US2Localizable/pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "US2FormValidator/US2FormValidationFramework/US2Localizable/pt-PT.lproj"; sourceTree = SOURCE_ROOT; };
+		A133F30A97124F1A90741ADA /* Pods-ios-experimentsAppTests-OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-experimentsAppTests-OCHamcrest-dummy.m"; sourceTree = SOURCE_ROOT; };
+		A1361AAF380B467DA2710E41 /* OCMock/Source/OCMock/OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMockObject.h; sourceTree = SOURCE_ROOT; };
+		A1D5CA59B75A45DAA28A7F24 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h; sourceTree = SOURCE_ROOT; };
+		A2CD6E043F264639B47C539E /* OCMock/Source/OCMock/OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMNotificationPoster.m; sourceTree = SOURCE_ROOT; };
+		A3410AD2E6CC4DE2963DFCFC /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.h; sourceTree = SOURCE_ROOT; };
+		A48764AA398242D88231153D /* OCHamcrest/Source/Library/Number/HCNumberAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCNumberAssert.h; sourceTree = SOURCE_ROOT; };
+		A6153BD02FB243F298B0D6E7 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.h; sourceTree = SOURCE_ROOT; };
+		A6ABA473DC2A493F99C888A1 /* OCHamcrest/Source/Library/Logical/HCIsAnything.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCIsAnything.h; sourceTree = SOURCE_ROOT; };
+		A707122643564C959442BDCE /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.h; sourceTree = SOURCE_ROOT; };
+		A71D36CC433F405F9AF82F35 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.m; sourceTree = SOURCE_ROOT; };
+		A9C949B0E2144116831F7DC1 /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m; sourceTree = SOURCE_ROOT; };
+		AA5E390CBA0E4327A6818EFC /* US2FormValidator/US2FormValidationFramework/US2Localizable/fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/fr.lproj; sourceTree = SOURCE_ROOT; };
+		ABD6075543C44B5793943ADE /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.h; sourceTree = SOURCE_ROOT; };
+		AC1172A7F8354D16A6ECC02A /* Pods-ios-experimentsAppTests-OCHamcrest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCHamcrest.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AD2AE2AC643A4FD98E0B215B /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.h; sourceTree = SOURCE_ROOT; };
+		ADD64067D2A14E379CCD794B /* OCHamcrest/Source/Library/Number/HCOrderingComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCOrderingComparison.m; sourceTree = SOURCE_ROOT; };
+		AE5F84B8F873411589535EF5 /* OCHamcrest/Source/Library/Collection/HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsIn.h; sourceTree = SOURCE_ROOT; };
+		AEA4DEA35DA941D780E10AD3 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCSubstringMatcher.m; sourceTree = SOURCE_ROOT; };
+		AFCA83858EEC466CBBFA47AF /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h; sourceTree = SOURCE_ROOT; };
+		B0EADCAB588F43BEAA801160 /* OCHamcrest/Source/Library/Object/HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsNil.m; sourceTree = SOURCE_ROOT; };
+		B17312E658CC494B9C1B3AF0 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.h; sourceTree = SOURCE_ROOT; };
+		B209F930DE7648669F759820 /* OCMock/Source/OCMock/OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCPartialMockObject.m; sourceTree = SOURCE_ROOT; };
+		B27D6846761A4E0B865310D2 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCConformsToProtocol.m; sourceTree = SOURCE_ROOT; };
+		B3D2C4A893934321B7F1CBD5 /* OCHamcrest/Source/Core/HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCAssertThat.m; sourceTree = SOURCE_ROOT; };
+		B4B83E39062E4DABAB385832 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.m; sourceTree = SOURCE_ROOT; };
+		B4EBD6D8056E4E29BBECF4DF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m; sourceTree = SOURCE_ROOT; };
+		B5A1E2C63E8F4ADC98CA5B59 /* Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		B6AD0FA94F064BAEA5B87100 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock/Source/OCMock/NSInvocation+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
+		B73B36870E3F4F0EB464CC2A /* Pods-ios-experimentsAppTests-OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-OCMock-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		BBF3E75BA8F4475B815CD0BF /* OCHamcrest/Source/Library/Logical/HCAllOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Logical/HCAllOf.h; sourceTree = SOURCE_ROOT; };
+		BCA32F78DD194D1A8EFAF7EC /* US2FormValidator/US2FormValidationFramework/source/base/US2Condition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2Condition.m; sourceTree = SOURCE_ROOT; };
+		BE4203D905F144C78ED0ACC3 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivateDelegate.h; sourceTree = SOURCE_ROOT; };
+		BFFCB46E34FA4260838DBCAE /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.m; sourceTree = SOURCE_ROOT; };
+		C0D4724C9D9046DABAEA533E /* US2FormValidator/US2FormValidationFramework/source/base/US2Condition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2Condition.h; sourceTree = SOURCE_ROOT; };
+		C2982B603B1A470584F39862 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m; sourceTree = SOURCE_ROOT; };
+		C3D97EF03ABE4098A442A255 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h; sourceTree = SOURCE_ROOT; };
+		C46588F453394B238617A236 /* OCMock/Source/OCMock/OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCPartialMockObject.h; sourceTree = SOURCE_ROOT; };
+		C5804A0EF432454C846A8F13 /* Pods-ios-experimentsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-experimentsAppTests-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		C66AF973183B40B2A19AC6AE /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.m; sourceTree = SOURCE_ROOT; };
+		C73B3A88459D411FBB2BE988 /* Pods-ios-experimentsAppTests-OCMock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-OCMock-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		C7871566BB7445A3BC3191DE /* OCHamcrest/Source/Core/HCBaseDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCBaseDescription.m; sourceTree = SOURCE_ROOT; };
+		CA3851B9368644B5BABF34A2 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.h; sourceTree = SOURCE_ROOT; };
+		CA917CC326A84232BE4DC098 /* OCHamcrest/Source/Core/HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCDescription.h; sourceTree = SOURCE_ROOT; };
+		CC215717B4FA4475A024A8C8 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.h; sourceTree = SOURCE_ROOT; };
+		CC23474AFE6447EE89E426EB /* OCHamcrest/Source/Core/HCStringDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/HCStringDescription.m; sourceTree = SOURCE_ROOT; };
+		CF51A03B033A4F01B97BBC51 /* OCHamcrest/Source/Library/Object/HCIsSame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsSame.h; sourceTree = SOURCE_ROOT; };
+		D10AA3B4420848D5BC3F6A58 /* OCMock/Source/OCMock/OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMArg.h; sourceTree = SOURCE_ROOT; };
+		D156716D03AF47E8A3C2D82A /* ../Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1693F020268461792D8AD48 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.m; sourceTree = SOURCE_ROOT; };
+		D1FE8F9FF27242918CFBCA39 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Number/HCIsCloseTo.m; sourceTree = SOURCE_ROOT; };
+		D427A699D0F4498E9B0DAFD2 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
+		D4BC64D492DB4D25A97E58B6 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.h; sourceTree = SOURCE_ROOT; };
+		D52F97E284CE4A7E950A0D87 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h; sourceTree = SOURCE_ROOT; };
+		D8720F717FB64ECC91814F96 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.h; sourceTree = SOURCE_ROOT; };
+		D8BEEADD6CA7497E8D8486EE /* OCHamcrest/Source/Library/Object/HCHasProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCHasProperty.h; sourceTree = SOURCE_ROOT; };
+		D9F3FC82D494400D96DFE86F /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.m; sourceTree = SOURCE_ROOT; };
+		DAE95A0D0AA742248C6E3206 /* US2FormValidator/US2FormValidationFramework/source/US2FormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/US2FormValidator.h; sourceTree = SOURCE_ROOT; };
+		DB6AC5B1B21649D6880998E9 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.m; sourceTree = SOURCE_ROOT; };
+		DD23001AB3AD494B97331ED9 /* OCHamcrest/Source/Core/HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCMatcher.h; sourceTree = SOURCE_ROOT; };
+		DE129BDC696D4EA5A40E448A /* OCHamcrest/Source/Library/Object/HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsTypeOf.m; sourceTree = SOURCE_ROOT; };
+		E106A60FF0D24DD7A7D41EE4 /* Pods-ios-experimentsAppTests-US2FormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-experimentsAppTests-US2FormValidator.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E148E5051FFF4CDBBA4785B7 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.h; sourceTree = SOURCE_ROOT; };
+		E18402235B564DA9B84B4B0D /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.m; sourceTree = SOURCE_ROOT; };
+		E395BCB996E1435D858FCE87 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m; sourceTree = SOURCE_ROOT; };
+		E55D86165AD343E9B392CCCC /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h; sourceTree = SOURCE_ROOT; };
+		E5F659E9D582497B86E61319 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m; sourceTree = SOURCE_ROOT; };
+		E61F0775AF254CF5BFC2452E /* OCMock/Source/OCMock/OCProtocolMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCProtocolMockObject.m; sourceTree = SOURCE_ROOT; };
+		E6D56A41501E4D9385BC9F00 /* OCHamcrest/Source/Library/Collection/HCHasCount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Collection/HCHasCount.m; sourceTree = SOURCE_ROOT; };
+		E79A298496FB475285EDFD50 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIProtocol.h; sourceTree = SOURCE_ROOT; };
+		E8CFD356F99240B8A64FF224 /* Pods-US2FormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-US2FormValidator-dummy.m"; sourceTree = SOURCE_ROOT; };
+		EACC00634B92458781A653AF /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.m; sourceTree = SOURCE_ROOT; };
+		EB751E944E9B4F5C90DA750A /* US2FormValidator/US2FormValidationFramework/US2Localizable/sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/sv.lproj; sourceTree = SOURCE_ROOT; };
+		EBF9CBD6D7D146D8AF87D6A4 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		EC8A65621D8445B0B13D994F /* OCMock/Source/OCMock/OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCMock/Source/OCMock/OCMRealObjectForwarder.h; sourceTree = SOURCE_ROOT; };
+		ECE2620495634318AA2E1EDC /* OCHamcrest/Source/Library/Object/HCHasDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCHasDescription.h; sourceTree = SOURCE_ROOT; };
+		EDB5A6E51133480C84644733 /* OCHamcrest/Source/Library/Logical/HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Logical/HCIsAnything.m; sourceTree = SOURCE_ROOT; };
+		F0D2A16615E141B9A057C05B /* Pods-US2FormValidator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-US2FormValidator-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		F14A8863ECC94A60A01997E4 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.m; sourceTree = SOURCE_ROOT; };
+		F1955B7D553144B7B43B62B8 /* OCHamcrest/Source/Library/Text/HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Text/HCStringContains.m; sourceTree = SOURCE_ROOT; };
+		F26064BE0F4C4FF6AE8232BD /* OCHamcrest/Source/Library/Object/HCIsNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Object/HCIsNil.h; sourceTree = SOURCE_ROOT; };
+		F260B036C7D047E8932A645A /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCHamcrest/Source/Library/Object/HCIsInstanceOf.m; sourceTree = SOURCE_ROOT; };
+		F32D9E8CA7E6420FA563CA93 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h; sourceTree = SOURCE_ROOT; };
+		F691C195355D4D4A96C8DB6E /* Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F6BCA3260ED14DE180FE051D /* OCMock/Source/OCMock/OCMReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMReturnValueProvider.m; sourceTree = SOURCE_ROOT; };
+		F75A0709BC9C4A4B98E72582 /* US2FormValidator/US2FormValidationFramework/source/base/US2Form.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2Form.m; sourceTree = SOURCE_ROOT; };
+		F860698777C04F1686C60091 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h; sourceTree = SOURCE_ROOT; };
+		F8C418E876454806A8771A9F /* OCHamcrest/Source/Core/HCAssertThat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Core/HCAssertThat.h; sourceTree = SOURCE_ROOT; };
+		F954D35EA937436BBE21A58B /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.m; sourceTree = SOURCE_ROOT; };
+		FA8EAD9FC1E243CCB8AE48A1 /* US2FormValidator/US2FormValidationFramework/US2Localizable/nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = US2FormValidator/US2FormValidationFramework/US2Localizable/nb.lproj; sourceTree = SOURCE_ROOT; };
+		FC338D0D57AD41269DD7D18F /* OCMock/Source/OCMock/OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMockObject.m; sourceTree = SOURCE_ROOT; };
+		FC6841FAD0BA441FAA23E455 /* OCMock/Source/OCMock/OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCMock/Source/OCMock/OCMPassByRefSetter.m; sourceTree = SOURCE_ROOT; };
+		FD907C79F96A4671B1E35067 /* OCHamcrest/Source/Library/Number/HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCHamcrest/Source/Library/Number/HCOrderingComparison.h; sourceTree = SOURCE_ROOT; };
+		FDB16A93C946486085BFD60C /* US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.m; sourceTree = SOURCE_ROOT; };
+		FDC34717E6CE44DFB8C5AE97 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43E263CA1CD3470E99C79A75 /* Frameworks */ = {
+		0DD8FCB99FFA479B9A136BC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF946863ADD43C89BE43F15 /* Foundation.framework in Frameworks */,
+				AC85602065F94EB3A09C5F90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBE872CA0BC4FF28698960F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12D4E5A33548EA89E4C7CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07163472B9C8455EBA2D5C49 /* Frameworks */ = {
+		00044D94138F4F5385C0421C /* Pods-ios-experimentsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				37EEB488D8DD4F59BFDCBB75 /* Foundation.framework */,
+				6E38DBCF1C7B4F0582A52D54 /* Pods-ios-experimentsAppTests.xcconfig */,
+				020978FA04034B8C85B43AD8 /* Pods-ios-experimentsAppTests-environment.h */,
+				06380BAF0FD548228DD46D30 /* Pods-ios-experimentsAppTests-resources.sh */,
+				37E04B4B51F44B26B497DE83 /* Pods-ios-experimentsAppTests-acknowledgements.plist */,
+				C5804A0EF432454C846A8F13 /* Pods-ios-experimentsAppTests-acknowledgements.markdown */,
+				2A790B7570304D889B343DB7 /* Pods-ios-experimentsAppTests-dummy.m */,
 			);
-			name = Frameworks;
+			name = "Pods-ios-experimentsAppTests";
 			sourceTree = "<group>";
 		};
-		2694117B2B4245C3AF6653FC = {
+		05CD2BCE3A2A4ADFB034BF30 /* OCMock */ = {
 			isa = PBXGroup;
 			children = (
-				07163472B9C8455EBA2D5C49 /* Frameworks */,
-				9BFFBD6D2CD34B0E828B0064 /* Pods */,
-				C662374B18864CB0A6DF2970 /* Products */,
-				9798F64C882140DCA5D0FC27 /* Targets Support Files */,
-				B405A6BBB4F64BA2AA1407F6 /* ../Podfile */,
-			);
-			sourceTree = "<group>";
-		};
-		5B87C67679504184B2407659 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				245C35CF2C684C11B0A3B8C0 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.h */,
-				ADFB51312541493995DB4AE1 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.m */,
-				CD568BB125964D79B2BAE927 /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h */,
-				266D3DD8560B4226A9B89CDB /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m */,
-				1AE9FF69073044A787CA8720 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h */,
-				B30649D4C33243D1AD9F858C /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m */,
-				CFF51FE8D6EB4B9287274AB6 /* OCMock/Source/OCMock/OCClassMockObject.h */,
-				2231A89FCA5849658F740338 /* OCMock/Source/OCMock/OCClassMockObject.m */,
-				9FB912E91FC2430C9FA950BB /* OCMock/Source/OCMock/OCMArg.h */,
-				DCF9D30299044AE29F4481C7 /* OCMock/Source/OCMock/OCMArg.m */,
-				32745E5057594BFC848A0EE7 /* OCMock/Source/OCMock/OCMBlockCaller.h */,
-				4A954474BE944E518A597947 /* OCMock/Source/OCMock/OCMBlockCaller.m */,
-				151B437B853C4C3A9A2D3A2D /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h */,
-				F1756A6C220549A688F85119 /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m */,
-				C9D35B306819402D988902D6 /* OCMock/Source/OCMock/OCMConstraint.h */,
-				C1DF6183AD0E4083B54700B5 /* OCMock/Source/OCMock/OCMConstraint.m */,
-				08AC51137C184DD5961E6B71 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h */,
-				A20266D0FA4D4BB8AFAC79D7 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m */,
-				F01C8ECB59754BC4B723C99D /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h */,
-				F5F0C6DC655042C6A80494F4 /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m */,
-				9A94EF9B5DB34F359FEA1D78 /* OCMock/Source/OCMock/OCMNotificationPoster.h */,
-				8BD21D2D25194C44AA1814B4 /* OCMock/Source/OCMock/OCMNotificationPoster.m */,
-				29949D2AA2F94FF08ED96260 /* OCMock/Source/OCMock/OCMObserverRecorder.h */,
-				7CB02E2C4F094931A6F1609B /* OCMock/Source/OCMock/OCMObserverRecorder.m */,
-				CC12C38B702D497785E115F2 /* OCMock/Source/OCMock/OCMock.h */,
-				9DA05793D1514112AA144568 /* OCMock/Source/OCMock/OCMockObject.h */,
-				E2201DF8844C4B07A79539B0 /* OCMock/Source/OCMock/OCMockObject.m */,
-				6EC5AF9883514612A21BF587 /* OCMock/Source/OCMock/OCMockRecorder.h */,
-				8428AB1D498240E8979AA3CB /* OCMock/Source/OCMock/OCMockRecorder.m */,
-				299445FBD2D54E95962FDCED /* OCMock/Source/OCMock/OCMPassByRefSetter.h */,
-				94E6F7EC45DD4F09A15E91DA /* OCMock/Source/OCMock/OCMPassByRefSetter.m */,
-				57C4E884B7F04BFB967444C4 /* OCMock/Source/OCMock/OCMRealObjectForwarder.h */,
-				F1F8B0E6C40046C89889A06E /* OCMock/Source/OCMock/OCMRealObjectForwarder.m */,
-				F67C0AA5D3384DECAEFCB942 /* OCMock/Source/OCMock/OCMReturnValueProvider.h */,
-				F80C2A605DE247CA85D0CEFE /* OCMock/Source/OCMock/OCMReturnValueProvider.m */,
-				13FD43A6893E419D8577C51A /* OCMock/Source/OCMock/OCObserverMockObject.h */,
-				1AF620E6A8C84F828B8E37A7 /* OCMock/Source/OCMock/OCObserverMockObject.m */,
-				0CD905F445CD48AAA476D7EE /* OCMock/Source/OCMock/OCPartialMockObject.h */,
-				0839AFE016BF46C5B095D2CD /* OCMock/Source/OCMock/OCPartialMockObject.m */,
-				CD24954F5F054AB3A0B7B676 /* OCMock/Source/OCMock/OCPartialMockRecorder.h */,
-				0400FB11356149A7846A46AD /* OCMock/Source/OCMock/OCPartialMockRecorder.m */,
-				8A8DD7EE8D074642B4759FAB /* OCMock/Source/OCMock/OCProtocolMockObject.h */,
-				9065192C837A4342A7FA5BE0 /* OCMock/Source/OCMock/OCProtocolMockObject.m */,
+				B6AD0FA94F064BAEA5B87100 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.h */,
+				876BA5F112604F39B5C66C73 /* OCMock/Source/OCMock/NSInvocation+OCMAdditions.m */,
+				337295F6F5CF4CFB8F677D47 /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h */,
+				642D930B72F84F5BBE1451CE /* OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m */,
+				8A0B2F54A92C43E783952DE3 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h */,
+				D427A699D0F4498E9B0DAFD2 /* OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m */,
+				631FF97AB420417D9BF01F19 /* OCMock/Source/OCMock/OCClassMockObject.h */,
+				0C9507CB014C4491ABBFF6BD /* OCMock/Source/OCMock/OCClassMockObject.m */,
+				D10AA3B4420848D5BC3F6A58 /* OCMock/Source/OCMock/OCMArg.h */,
+				4F74845A497D46C79CD5ECCA /* OCMock/Source/OCMock/OCMArg.m */,
+				1FCFE23838B74FC6867A71AA /* OCMock/Source/OCMock/OCMBlockCaller.h */,
+				24E5FBC3DE164BA1AE2B1FFC /* OCMock/Source/OCMock/OCMBlockCaller.m */,
+				4BA75484A91E4D128049F45B /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h */,
+				3425B2E515C24EF89C73003C /* OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m */,
+				8ADAB75FF5744764936D0754 /* OCMock/Source/OCMock/OCMConstraint.h */,
+				710B205D6DB649D5BDBD1D03 /* OCMock/Source/OCMock/OCMConstraint.m */,
+				4CD7A684442943798C0557B2 /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h */,
+				6A91AF3D083743FF8C550E4D /* OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m */,
+				4F4CB254EEE7493882A5336D /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h */,
+				657E26E35C95429C8787B647 /* OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m */,
+				4A127E3F69A94F92AB2D1D1B /* OCMock/Source/OCMock/OCMNotificationPoster.h */,
+				A2CD6E043F264639B47C539E /* OCMock/Source/OCMock/OCMNotificationPoster.m */,
+				8B601880E1694E46B426604A /* OCMock/Source/OCMock/OCMObserverRecorder.h */,
+				40B6F64573534CA68DF59745 /* OCMock/Source/OCMock/OCMObserverRecorder.m */,
+				786918AB8B9F45B3B768DB9B /* OCMock/Source/OCMock/OCMock.h */,
+				A1361AAF380B467DA2710E41 /* OCMock/Source/OCMock/OCMockObject.h */,
+				FC338D0D57AD41269DD7D18F /* OCMock/Source/OCMock/OCMockObject.m */,
+				79BAF826452E45FD9A0D3DC3 /* OCMock/Source/OCMock/OCMockRecorder.h */,
+				3C363DB9A1CF4396BBAC3ABD /* OCMock/Source/OCMock/OCMockRecorder.m */,
+				72CEEA287F344A7F97317CC4 /* OCMock/Source/OCMock/OCMPassByRefSetter.h */,
+				FC6841FAD0BA441FAA23E455 /* OCMock/Source/OCMock/OCMPassByRefSetter.m */,
+				EC8A65621D8445B0B13D994F /* OCMock/Source/OCMock/OCMRealObjectForwarder.h */,
+				8F3F83993A5343F0B523008E /* OCMock/Source/OCMock/OCMRealObjectForwarder.m */,
+				5DA1382CC31C42988F5D1326 /* OCMock/Source/OCMock/OCMReturnValueProvider.h */,
+				F6BCA3260ED14DE180FE051D /* OCMock/Source/OCMock/OCMReturnValueProvider.m */,
+				9F83BB765C374E02874C5E0E /* OCMock/Source/OCMock/OCObserverMockObject.h */,
+				0E735FF2CF3E4C5F88B91FD0 /* OCMock/Source/OCMock/OCObserverMockObject.m */,
+				C46588F453394B238617A236 /* OCMock/Source/OCMock/OCPartialMockObject.h */,
+				B209F930DE7648669F759820 /* OCMock/Source/OCMock/OCPartialMockObject.m */,
+				76401640E37049ADB108DB12 /* OCMock/Source/OCMock/OCPartialMockRecorder.h */,
+				2EBDB270423C4B4FA7C04F61 /* OCMock/Source/OCMock/OCPartialMockRecorder.m */,
+				9E47B816191240208F65E125 /* OCMock/Source/OCMock/OCProtocolMockObject.h */,
+				E61F0775AF254CF5BFC2452E /* OCMock/Source/OCMock/OCProtocolMockObject.m */,
 			);
 			name = OCMock;
 			sourceTree = "<group>";
 		};
-		73AEC75AE7FB4771ADDEEB8E /* Pods-ios-experimentsAppTests-OCHamcrest */ = {
+		0844B1ED6E5642C9A99EB2E6 /* US2FormValidator */ = {
 			isa = PBXGroup;
 			children = (
-				CC510EC0903045849683753D /* Pods-ios-experimentsAppTests-OCHamcrest.xcconfig */,
-				B7CC44842CBA405E992CF5D2 /* Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig */,
-				4CB982D686B84DA9811EA8EE /* Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch */,
-				BF9EAE105424427CBFD9B3FE /* Pods-ios-experimentsAppTests-OCHamcrest-dummy.m */,
+				2C41ABD65B254698910359D0 /* US2FormValidator/US2FormValidationFramework/US2Localizable/da.lproj */,
+				873BC4164910443795F6C0A8 /* US2FormValidator/US2FormValidationFramework/US2Localizable/de.lproj */,
+				962673AD94FF4E128AF8DDA2 /* US2FormValidator/US2FormValidationFramework/US2Localizable/en.lproj */,
+				AA5E390CBA0E4327A6818EFC /* US2FormValidator/US2FormValidationFramework/US2Localizable/fr.lproj */,
+				152864F9A0584D91AB174937 /* US2FormValidator/US2FormValidationFramework/US2Localizable/it.lproj */,
+				583085D39BF94E9EADA55424 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ja.lproj */,
+				63C86D99FB8148DD8BC29830 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ko.lproj */,
+				FA8EAD9FC1E243CCB8AE48A1 /* US2FormValidator/US2FormValidationFramework/US2Localizable/nb.lproj */,
+				34467185C5F749998A67A5E8 /* US2FormValidator/US2FormValidationFramework/US2Localizable/pl.lproj */,
+				A1040FB889C2494EBAE13EAE /* US2FormValidator/US2FormValidationFramework/US2Localizable/pt-PT.lproj */,
+				7F18C98091F042EF94255CC7 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ro.lproj */,
+				39D2B5B270B64C3D84642DD5 /* US2FormValidator/US2FormValidationFramework/US2Localizable/ru.lproj */,
+				EB751E944E9B4F5C90DA750A /* US2FormValidator/US2FormValidationFramework/US2Localizable/sv.lproj */,
 			);
-			name = "Pods-ios-experimentsAppTests-OCHamcrest";
+			name = US2FormValidator;
 			sourceTree = "<group>";
 		};
-		7D7597F909594ECA99C2DBD0 /* Pods-ios-experimentsAppTests-OCMock */ = {
+		41C3926D71C34C99B995BE46 /* OCHamcrest */ = {
 			isa = PBXGroup;
 			children = (
-				12BD3A413DDB4924AA23F7A1 /* Pods-ios-experimentsAppTests-OCMock.xcconfig */,
-				BFBD97810B104F31B8AAB0CF /* Pods-ios-experimentsAppTests-OCMock-Private.xcconfig */,
-				B8E2F8BB65594400AB181D6E /* Pods-ios-experimentsAppTests-OCMock-prefix.pch */,
-				2630645DC30240119C3CFCC8 /* Pods-ios-experimentsAppTests-OCMock-dummy.m */,
-			);
-			name = "Pods-ios-experimentsAppTests-OCMock";
-			sourceTree = "<group>";
-		};
-		9798F64C882140DCA5D0FC27 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73AEC75AE7FB4771ADDEEB8E /* Pods-ios-experimentsAppTests-OCHamcrest */,
-				7D7597F909594ECA99C2DBD0 /* Pods-ios-experimentsAppTests-OCMock */,
-				EF5BAA25E86A4CA09E3059E2 /* Pods-ios-experimentsAppTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9BFFBD6D2CD34B0E828B0064 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9BC57A9AAA744AB8115EDB5 /* OCHamcrest */,
-				5B87C67679504184B2407659 /* OCMock */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B9BC57A9AAA744AB8115EDB5 /* OCHamcrest */ = {
-			isa = PBXGroup;
-			children = (
-				1A252786C31F480E859A5B45 /* OCHamcrest/Source/OCHamcrest.h */,
-				02F16B46784544878681D8E9 /* OCHamcrest/Source/Core/HCAssertThat.h */,
-				A67555A11F8B4A1983804976 /* OCHamcrest/Source/Core/HCAssertThat.m */,
-				FC1A1834931042D0AE3626DD /* OCHamcrest/Source/Core/HCBaseDescription.h */,
-				EF2210990AD24CF4B159ECA7 /* OCHamcrest/Source/Core/HCBaseDescription.m */,
-				341C82064599477BB8ACE2B1 /* OCHamcrest/Source/Core/HCBaseMatcher.h */,
-				56BBC9B36D2443F7970C5FE7 /* OCHamcrest/Source/Core/HCBaseMatcher.m */,
-				F2DB313DF2534BD8BD060ED1 /* OCHamcrest/Source/Core/HCDescription.h */,
-				9254E235CA7547CB99C32469 /* OCHamcrest/Source/Core/HCMatcher.h */,
-				E9EB3E197DA5490D9C042AA5 /* OCHamcrest/Source/Core/HCSelfDescribing.h */,
-				769033F11D184C3AAE2585C0 /* OCHamcrest/Source/Core/HCStringDescription.h */,
-				024FC437060C49EA9A40E47D /* OCHamcrest/Source/Core/HCStringDescription.m */,
-				9A353F3AB4AB4D31A967BC02 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h */,
-				ACDEFD374940470B8A05AE0E /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m */,
-				6FF792FC823F4894A2BA8284 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h */,
-				C6BEC12606F34EEDBF709241 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m */,
-				43B7E6AF4D9D4DFCA720B241 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h */,
-				00B4DBA408BD4CC7AAC56488 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m */,
-				A1E255A245E64464A40068CB /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h */,
-				7DDC5BA9DAD44F50A54A4C24 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m */,
-				3AD093A73B6942C7AFAD85DC /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h */,
-				FDBBD858AC6C47F184EF8E34 /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m */,
-				4DD5DB6531DC4488B731C472 /* OCHamcrest/Source/Library/Collection/HCHasCount.h */,
-				8538BCDCA1CA43EB933915F3 /* OCHamcrest/Source/Library/Collection/HCHasCount.m */,
-				8F36AC4ED714437AA863713E /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h */,
-				D9EA3CFDE47E4584B91C3D84 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m */,
-				20090A2B5BA5443D93BB74EF /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h */,
-				399BB3046BD048A794CFEB4E /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m */,
-				02BD50CD2F464584B2EF8CED /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h */,
-				9BF5B08C53154B26997DEA9C /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m */,
-				EF0DC7766EED4F5DA7B508B4 /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h */,
-				90CA291CE3B94B7E980DB504 /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m */,
-				ADC774E1ECBE44D6872F5E7A /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h */,
-				7B8A856CFF1F4AC8A200E0BF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m */,
-				533B4FCE484F47FA9316CE69 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h */,
-				FF8BBB5E16D44A3A83C9583F /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m */,
-				1116CCD101524EAAB58DBFFF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h */,
-				49E25644EB624AE796158632 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m */,
-				2BA2D82CC48C4604BE557F97 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h */,
-				BCD3F9606F6645D78107C473 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m */,
-				56A5D4A678774AE1B09A7896 /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h */,
-				55AC01FD9B724DB3AFEA7A9A /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m */,
-				F9AA44D1434A4EF399E72E25 /* OCHamcrest/Source/Library/Collection/HCIsIn.h */,
-				29A1C9BAFE6D4380A5D03442 /* OCHamcrest/Source/Library/Collection/HCIsIn.m */,
-				8EE261A5F96C44149D76A6E0 /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.h */,
-				B33D7D37AFBB4AC18452F4BF /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.m */,
-				FBD297B5AE43456989BDF1AB /* OCHamcrest/Source/Library/Decorator/HCIs.h */,
-				3F72C7A33E8B414FB9385524 /* OCHamcrest/Source/Library/Decorator/HCIs.m */,
-				F4EDE12D78CF436C959F13A0 /* OCHamcrest/Source/Library/Logical/HCAllOf.h */,
-				03692698FF1B4DFABD57B1EE /* OCHamcrest/Source/Library/Logical/HCAllOf.m */,
-				D69DF75B5F884C7F84BBE5F6 /* OCHamcrest/Source/Library/Logical/HCAnyOf.h */,
-				C45211AF7DA94FF5916C44F2 /* OCHamcrest/Source/Library/Logical/HCAnyOf.m */,
-				29B5044BB9254E358B7BDBB4 /* OCHamcrest/Source/Library/Logical/HCIsAnything.h */,
-				7161605FB93E4D27B0E9C00A /* OCHamcrest/Source/Library/Logical/HCIsAnything.m */,
-				8EFFD27F5B1140F590B72189 /* OCHamcrest/Source/Library/Logical/HCIsNot.h */,
-				EDA9484C8E3947F0B5E2545A /* OCHamcrest/Source/Library/Logical/HCIsNot.m */,
-				A9F0BA11E7A54DF89C320F27 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.h */,
-				CFDAD12DBFF0487AB1AC4736 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.m */,
-				24437D934F7D42DFB31451C1 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h */,
-				1CDD5CBE79D04C1998C88A2B /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m */,
-				1D865C72C1EB4CA3A1D38023 /* OCHamcrest/Source/Library/Number/HCNumberAssert.h */,
-				0E54454138B74BD4BBD894D4 /* OCHamcrest/Source/Library/Number/HCNumberAssert.m */,
-				F13CED38DD73492F9987E977 /* OCHamcrest/Source/Library/Number/HCOrderingComparison.h */,
-				4A1573CAEF404151B4755EBD /* OCHamcrest/Source/Library/Number/HCOrderingComparison.m */,
-				5EF02513D1764996AF19DD96 /* OCHamcrest/Source/Library/Object/HCClassMatcher.h */,
-				328CD84EA4B940E18819756F /* OCHamcrest/Source/Library/Object/HCClassMatcher.m */,
-				84768E0F1F1849A2A87DCAAA /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.h */,
-				A750D94BAD1146DDB4C9E8C4 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.m */,
-				9028BE19A1F64E278FB8F70C /* OCHamcrest/Source/Library/Object/HCHasDescription.h */,
-				D0D42FCB2D0F4F2F83730693 /* OCHamcrest/Source/Library/Object/HCHasDescription.m */,
-				50352E34D8184247A1B73DE1 /* OCHamcrest/Source/Library/Object/HCHasProperty.h */,
-				A5D1875BCA414C04B27941ED /* OCHamcrest/Source/Library/Object/HCHasProperty.m */,
-				EF1F93B8955A49CFA2802DC2 /* OCHamcrest/Source/Library/Object/HCIsEqual.h */,
-				9437CC6EE7984AE49FFC1B53 /* OCHamcrest/Source/Library/Object/HCIsEqual.m */,
-				FAF35790CA504A4A97CD9D26 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.h */,
-				8C0E705C7A0B45EBA53FB728 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.m */,
-				21DB251CA1EA4DB28F1DDBC1 /* OCHamcrest/Source/Library/Object/HCIsNil.h */,
-				5655D6D24C2A4DFB996483B7 /* OCHamcrest/Source/Library/Object/HCIsNil.m */,
-				2670CE2A300943CFA4807E7F /* OCHamcrest/Source/Library/Object/HCIsSame.h */,
-				3D5FD4B52BA74E598EAACD52 /* OCHamcrest/Source/Library/Object/HCIsSame.m */,
-				935BE428EC564EE0AC62DD48 /* OCHamcrest/Source/Library/Object/HCIsTypeOf.h */,
-				2C6E0AA283AF43F797069991 /* OCHamcrest/Source/Library/Object/HCIsTypeOf.m */,
-				8B22AC0518C248C687485125 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h */,
-				F32838F212A048058DEAA6FF /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m */,
-				BF96CCEE1FA8414FA8D4B5BC /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h */,
-				CDC26AA2FFB549A2B2F10C1B /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m */,
-				0EE5DFC3BE21448A86524C6C /* OCHamcrest/Source/Library/Text/HCStringContains.h */,
-				1FC6034F9CE5412A8132B667 /* OCHamcrest/Source/Library/Text/HCStringContains.m */,
-				ACEF853C7625416DA93DFD4E /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h */,
-				BEC92A11582C472B81FCC83A /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m */,
-				447E616BC1C84DE489C1A006 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.h */,
-				518A9D330D2E41BEA2ED12C7 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.m */,
-				37C7160547684EBABB6242DE /* OCHamcrest/Source/Library/Text/HCStringStartsWith.h */,
-				DAED546BCD6C4F708AB235D9 /* OCHamcrest/Source/Library/Text/HCStringStartsWith.m */,
-				7240B16646BD4C129A6D5BAB /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.h */,
-				4DD7AD8BEEB14898ACBD9EE4 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.m */,
+				40D0BB588C6E4133B31B983E /* OCHamcrest/Source/OCHamcrest.h */,
+				F8C418E876454806A8771A9F /* OCHamcrest/Source/Core/HCAssertThat.h */,
+				B3D2C4A893934321B7F1CBD5 /* OCHamcrest/Source/Core/HCAssertThat.m */,
+				4C1223642E7E43D5ABEE6DA0 /* OCHamcrest/Source/Core/HCBaseDescription.h */,
+				C7871566BB7445A3BC3191DE /* OCHamcrest/Source/Core/HCBaseDescription.m */,
+				86B0E00DF9C14854989CA2A8 /* OCHamcrest/Source/Core/HCBaseMatcher.h */,
+				468A39DDAD924F99A617A0E3 /* OCHamcrest/Source/Core/HCBaseMatcher.m */,
+				CA917CC326A84232BE4DC098 /* OCHamcrest/Source/Core/HCDescription.h */,
+				DD23001AB3AD494B97331ED9 /* OCHamcrest/Source/Core/HCMatcher.h */,
+				5123BAC132044AF6BADF2690 /* OCHamcrest/Source/Core/HCSelfDescribing.h */,
+				6CFEF70B53BD4A7EB4A92FCF /* OCHamcrest/Source/Core/HCStringDescription.h */,
+				CC23474AFE6447EE89E426EB /* OCHamcrest/Source/Core/HCStringDescription.m */,
+				C3D97EF03ABE4098A442A255 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.h */,
+				E395BCB996E1435D858FCE87 /* OCHamcrest/Source/Core/Helpers/HCCollectMatchers.m */,
+				99B15AFB663445479539331D /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.h */,
+				0F637D83AEDA48FF98511873 /* OCHamcrest/Source/Core/Helpers/HCInvocationMatcher.m */,
+				54C3855DEED24FBCA2FC39FF /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.h */,
+				6DF0B0A0701640AA996E5FB8 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilObject.m */,
+				11BC8A0E05E04FB8A946B7DE /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.h */,
+				6AF8C452C9FA42BAB377A973 /* OCHamcrest/Source/Core/Helpers/HCRequireNonNilString.m */,
+				9EBC59D921114DBEAF7DB5AF /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.h */,
+				156570ECF5E64B469990DF31 /* OCHamcrest/Source/Core/Helpers/HCWrapInMatcher.m */,
+				1F1BF682F78940318C6939A7 /* OCHamcrest/Source/Library/Collection/HCHasCount.h */,
+				E6D56A41501E4D9385BC9F00 /* OCHamcrest/Source/Library/Collection/HCHasCount.m */,
+				4E9A28589D254A048F3D528C /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.h */,
+				89FF7D10A68D4A28B8468F88 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContaining.m */,
+				5E489C9BBEF240B3A0118CDF /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h */,
+				14BBC07FD55744F7B0111514 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m */,
+				D52F97E284CE4A7E950A0D87 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.h */,
+				C2982B603B1A470584F39862 /* OCHamcrest/Source/Library/Collection/HCIsCollectionContainingInOrder.m */,
+				AFCA83858EEC466CBBFA47AF /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.h */,
+				24A025224B6A4C7DA75CC70D /* OCHamcrest/Source/Library/Collection/HCIsCollectionOnlyContaining.m */,
+				F860698777C04F1686C60091 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.h */,
+				3FB7C0C3B4824473AEA0E76E /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContaining.m */,
+				A1D5CA59B75A45DAA28A7F24 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.h */,
+				301DA5EBF4D94919B4BFF5D1 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingEntries.m */,
+				39A33FEA633D48BDACE2F755 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.h */,
+				B4EBD6D8056E4E29BBECF4DF /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingKey.m */,
+				1E74E9C94C0C4E1A8AE6F895 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.h */,
+				E5F659E9D582497B86E61319 /* OCHamcrest/Source/Library/Collection/HCIsDictionaryContainingValue.m */,
+				2BA80D1F50464915A4CB682A /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.h */,
+				A9C949B0E2144116831F7DC1 /* OCHamcrest/Source/Library/Collection/HCIsEmptyCollection.m */,
+				AE5F84B8F873411589535EF5 /* OCHamcrest/Source/Library/Collection/HCIsIn.h */,
+				A037BD53847C4F8E93144AE3 /* OCHamcrest/Source/Library/Collection/HCIsIn.m */,
+				06765B0CE94041ACA0549E8B /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.h */,
+				26794FD889F244459D2B370D /* OCHamcrest/Source/Library/Decorator/HCDescribedAs.m */,
+				5856440AEE7745208C891C65 /* OCHamcrest/Source/Library/Decorator/HCIs.h */,
+				70D2F9EDE16148F58236FFE9 /* OCHamcrest/Source/Library/Decorator/HCIs.m */,
+				BBF3E75BA8F4475B815CD0BF /* OCHamcrest/Source/Library/Logical/HCAllOf.h */,
+				855AA34B0E4F469DA40B8AEA /* OCHamcrest/Source/Library/Logical/HCAllOf.m */,
+				0D7830E518884A138280CFEA /* OCHamcrest/Source/Library/Logical/HCAnyOf.h */,
+				410EFF54708B410CBE86742D /* OCHamcrest/Source/Library/Logical/HCAnyOf.m */,
+				A6ABA473DC2A493F99C888A1 /* OCHamcrest/Source/Library/Logical/HCIsAnything.h */,
+				EDB5A6E51133480C84644733 /* OCHamcrest/Source/Library/Logical/HCIsAnything.m */,
+				7A147DD68FCE48AE8BF5AFF7 /* OCHamcrest/Source/Library/Logical/HCIsNot.h */,
+				67F7F7EB4AD54E68BA96C839 /* OCHamcrest/Source/Library/Logical/HCIsNot.m */,
+				6B35C1D6FCCF468CA3AADFF6 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.h */,
+				D1FE8F9FF27242918CFBCA39 /* OCHamcrest/Source/Library/Number/HCIsCloseTo.m */,
+				628409E7F63D49CEBE1EC7B6 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.h */,
+				6C2C77DDE8B94B9D8A025CB3 /* OCHamcrest/Source/Library/Number/HCIsEqualToNumber.m */,
+				A48764AA398242D88231153D /* OCHamcrest/Source/Library/Number/HCNumberAssert.h */,
+				4213098281214099AE46DB8B /* OCHamcrest/Source/Library/Number/HCNumberAssert.m */,
+				FD907C79F96A4671B1E35067 /* OCHamcrest/Source/Library/Number/HCOrderingComparison.h */,
+				ADD64067D2A14E379CCD794B /* OCHamcrest/Source/Library/Number/HCOrderingComparison.m */,
+				6B1325E9B38643C894950502 /* OCHamcrest/Source/Library/Object/HCClassMatcher.h */,
+				459F229049064CFD9C618F56 /* OCHamcrest/Source/Library/Object/HCClassMatcher.m */,
+				2D6C1B0028724F27BDF2EEF5 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.h */,
+				B27D6846761A4E0B865310D2 /* OCHamcrest/Source/Library/Object/HCConformsToProtocol.m */,
+				ECE2620495634318AA2E1EDC /* OCHamcrest/Source/Library/Object/HCHasDescription.h */,
+				8B98CAE72D7F41409EAAD764 /* OCHamcrest/Source/Library/Object/HCHasDescription.m */,
+				D8BEEADD6CA7497E8D8486EE /* OCHamcrest/Source/Library/Object/HCHasProperty.h */,
+				49630AE20A1445729E1DA49F /* OCHamcrest/Source/Library/Object/HCHasProperty.m */,
+				1AD72E623AC7457C83879E40 /* OCHamcrest/Source/Library/Object/HCIsEqual.h */,
+				2439C6032F3C449FAE7021F3 /* OCHamcrest/Source/Library/Object/HCIsEqual.m */,
+				9F5E4D69600C4187B6219F98 /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.h */,
+				F260B036C7D047E8932A645A /* OCHamcrest/Source/Library/Object/HCIsInstanceOf.m */,
+				F26064BE0F4C4FF6AE8232BD /* OCHamcrest/Source/Library/Object/HCIsNil.h */,
+				B0EADCAB588F43BEAA801160 /* OCHamcrest/Source/Library/Object/HCIsNil.m */,
+				CF51A03B033A4F01B97BBC51 /* OCHamcrest/Source/Library/Object/HCIsSame.h */,
+				8B9EC541CC8744E5ADDB2718 /* OCHamcrest/Source/Library/Object/HCIsSame.m */,
+				80546FC8304C47AA9A2818CE /* OCHamcrest/Source/Library/Object/HCIsTypeOf.h */,
+				DE129BDC696D4EA5A40E448A /* OCHamcrest/Source/Library/Object/HCIsTypeOf.m */,
+				E55D86165AD343E9B392CCCC /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.h */,
+				19EEF6C492E84D908F5580B7 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringCase.m */,
+				F32D9E8CA7E6420FA563CA93 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h */,
+				2D8A2F478E674892A5FA8EC1 /* OCHamcrest/Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m */,
+				7CD508C0723F46FFAF78C786 /* OCHamcrest/Source/Library/Text/HCStringContains.h */,
+				F1955B7D553144B7B43B62B8 /* OCHamcrest/Source/Library/Text/HCStringContains.m */,
+				7A024C65CA73423DA1017C17 /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.h */,
+				22E0552500C14319974B22A5 /* OCHamcrest/Source/Library/Text/HCStringContainsInOrder.m */,
+				7B0A50218B074F11A16A7705 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.h */,
+				2C1D4A713B8A47488EE65202 /* OCHamcrest/Source/Library/Text/HCStringEndsWith.m */,
+				7EEF9D13476E441C91E1F6FF /* OCHamcrest/Source/Library/Text/HCStringStartsWith.h */,
+				0CAF7FF4A82C497DBCAD2596 /* OCHamcrest/Source/Library/Text/HCStringStartsWith.m */,
+				7BA256D56EAA45CE9D121E50 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.h */,
+				AEA4DEA35DA941D780E10AD3 /* OCHamcrest/Source/Library/Text/HCSubstringMatcher.m */,
 			);
 			name = OCHamcrest;
 			sourceTree = "<group>";
 		};
-		C662374B18864CB0A6DF2970 /* Products */ = {
+		4EC74B942FFF43D48114B8AE /* Pods-ios-experimentsAppTests-OCMock */ = {
 			isa = PBXGroup;
 			children = (
-				94245222E8E447F5AD9A4D38 /* libPods-ios-experimentsAppTests.a */,
+				2A2B96E2537F4B8E92DEB076 /* Pods-ios-experimentsAppTests-OCMock.xcconfig */,
+				C73B3A88459D411FBB2BE988 /* Pods-ios-experimentsAppTests-OCMock-Private.xcconfig */,
+				B73B36870E3F4F0EB464CC2A /* Pods-ios-experimentsAppTests-OCMock-prefix.pch */,
+				A0088A7B08DB47CFB7E8A81F /* Pods-ios-experimentsAppTests-OCMock-dummy.m */,
+			);
+			name = "Pods-ios-experimentsAppTests-OCMock";
+			sourceTree = "<group>";
+		};
+		56465B0448794B268A3F1EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16196DCD8A05426C9407A0F5 /* libPods.a */,
+				67FDE08F0A4D41648432A43A /* libPods-ios-experimentsAppTests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF5BAA25E86A4CA09E3059E2 /* Pods-ios-experimentsAppTests */ = {
+		568596ABF27441A8A7307A81 = {
 			isa = PBXGroup;
 			children = (
-				9E52D468E273457A821F020E /* Pods-ios-experimentsAppTests.xcconfig */,
-				1C2684FBA88A4C73A4120FCC /* Pods-ios-experimentsAppTests-environment.h */,
-				EA1CE147EA094446B071FB66 /* Pods-ios-experimentsAppTests-resources.sh */,
-				A1F3A92CD45E4BE288CD7683 /* Pods-ios-experimentsAppTests-acknowledgements.plist */,
-				78665AF9EB09473EA700DAB2 /* Pods-ios-experimentsAppTests-acknowledgements.markdown */,
-				32D6BCB730164CEC91C7989F /* Pods-ios-experimentsAppTests-dummy.m */,
+				FA6F172A92E040B78CF7EF3A /* Frameworks */,
+				88F3CC3A74B94159AD0C2E2E /* Pods */,
+				56465B0448794B268A3F1EB2 /* Products */,
+				EF99C8A3F5E54E2181E568F6 /* Resources */,
+				649972EDA4414B489FE86B29 /* Targets Support Files */,
+				D156716D03AF47E8A3C2D82A /* ../Podfile */,
 			);
-			name = "Pods-ios-experimentsAppTests";
+			sourceTree = "<group>";
+		};
+		649972EDA4414B489FE86B29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE9EDFBA484DFD87B53795 /* Pods-US2FormValidator */,
+				8CDCDD0652984131AEFCC9F7 /* Pods-ios-experimentsAppTests-OCHamcrest */,
+				4EC74B942FFF43D48114B8AE /* Pods-ios-experimentsAppTests-OCMock */,
+				88DD1F40EC5F45079177C702 /* Pods-ios-experimentsAppTests-US2FormValidator */,
+				C56E2E9AB55F438C8FB212B8 /* Pods */,
+				00044D94138F4F5385C0421C /* Pods-ios-experimentsAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88DD1F40EC5F45079177C702 /* Pods-ios-experimentsAppTests-US2FormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				E106A60FF0D24DD7A7D41EE4 /* Pods-ios-experimentsAppTests-US2FormValidator.xcconfig */,
+				5C6EBDAD6CF24A0F9A409347 /* Pods-ios-experimentsAppTests-US2FormValidator-Private.xcconfig */,
+				23E223AB56F645D2A8749908 /* Pods-ios-experimentsAppTests-US2FormValidator-prefix.pch */,
+				91E33F005183414EB9CD9E23 /* Pods-ios-experimentsAppTests-US2FormValidator-dummy.m */,
+			);
+			name = "Pods-ios-experimentsAppTests-US2FormValidator";
+			sourceTree = "<group>";
+		};
+		88F3CC3A74B94159AD0C2E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB5130736C7F40389763FDEB /* US2FormValidator */,
+				41C3926D71C34C99B995BE46 /* OCHamcrest */,
+				05CD2BCE3A2A4ADFB034BF30 /* OCMock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CDCDD0652984131AEFCC9F7 /* Pods-ios-experimentsAppTests-OCHamcrest */ = {
+			isa = PBXGroup;
+			children = (
+				AC1172A7F8354D16A6ECC02A /* Pods-ios-experimentsAppTests-OCHamcrest.xcconfig */,
+				B5A1E2C63E8F4ADC98CA5B59 /* Pods-ios-experimentsAppTests-OCHamcrest-Private.xcconfig */,
+				F691C195355D4D4A96C8DB6E /* Pods-ios-experimentsAppTests-OCHamcrest-prefix.pch */,
+				A133F30A97124F1A90741ADA /* Pods-ios-experimentsAppTests-OCHamcrest-dummy.m */,
+			);
+			name = "Pods-ios-experimentsAppTests-OCHamcrest";
+			sourceTree = "<group>";
+		};
+		9CBE9EDFBA484DFD87B53795 /* Pods-US2FormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				0FCB0D94452D49FE9E7B2575 /* Pods-US2FormValidator.xcconfig */,
+				F0D2A16615E141B9A057C05B /* Pods-US2FormValidator-Private.xcconfig */,
+				1741EFB82A2042DE8D91173F /* Pods-US2FormValidator-prefix.pch */,
+				E8CFD356F99240B8A64FF224 /* Pods-US2FormValidator-dummy.m */,
+			);
+			name = "Pods-US2FormValidator";
+			sourceTree = "<group>";
+		};
+		C56E2E9AB55F438C8FB212B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9223FE022A8046B78C8B7BB8 /* Pods.xcconfig */,
+				6E2507AFE6F842C2ACF006DF /* Pods-environment.h */,
+				EBF9CBD6D7D146D8AF87D6A4 /* Pods-resources.sh */,
+				48EED3C91220400FBFB00BFA /* Pods-acknowledgements.plist */,
+				8B56D55C1D55480A9B7F990D /* Pods-acknowledgements.markdown */,
+				46B1702E84294ED9A8D14676 /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB5130736C7F40389763FDEB /* US2FormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				C0D4724C9D9046DABAEA533E /* US2FormValidator/US2FormValidationFramework/source/base/US2Condition.h */,
+				BCA32F78DD194D1A8EFAF7EC /* US2FormValidator/US2FormValidationFramework/source/base/US2Condition.m */,
+				8ABC1A67A62946C886DA8B66 /* US2FormValidator/US2FormValidationFramework/source/base/US2Form.h */,
+				F75A0709BC9C4A4B98E72582 /* US2FormValidator/US2FormValidationFramework/source/base/US2Form.m */,
+				1F8744E6B18549AEA596F4CC /* US2FormValidator/US2FormValidationFramework/source/base/US2Localization.h */,
+				095DA19BE05645A2A98790D2 /* US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.h */,
+				FDB16A93C946486085BFD60C /* US2FormValidator/US2FormValidationFramework/source/base/US2Validatable.m */,
+				656B0E32C39E44279A65AFBB /* US2FormValidator/US2FormValidationFramework/source/base/US2Validator.h */,
+				9E982F5EB44844D0843169F7 /* US2FormValidator/US2FormValidationFramework/source/base/US2Validator.m */,
+				4D99EF52735A4ED98D87F225 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.h */,
+				9F99EA4A80F1426BB92BAF92 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextField.m */,
+				A6153BD02FB243F298B0D6E7 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.h */,
+				8D8D82CCABEE4440976B72A3 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivate.m */,
+				449D68DA077146DA84F94423 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextFieldPrivateDelegate.h */,
+				50AC7813F0804655A217E1E0 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.h */,
+				BFFCB46E34FA4260838DBCAE /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextView.m */,
+				CA3851B9368644B5BABF34A2 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.h */,
+				F14A8863ECC94A60A01997E4 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivate.m */,
+				BE4203D905F144C78ED0ACC3 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorTextViewPrivateDelegate.h */,
+				0C897F1828B24DB9A6D8E611 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIDelegate.h */,
+				E79A298496FB475285EDFD50 /* US2FormValidator/US2FormValidationFramework/source/base/US2ValidatorUIProtocol.h */,
+				2DF986AA1EFE47F7A5809CEB /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.h */,
+				D9F3FC82D494400D96DFE86F /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphabetic.m */,
+				E148E5051FFF4CDBBA4785B7 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.h */,
+				C66AF973183B40B2A19AC6AE /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAlphanumeric.m */,
+				A3410AD2E6CC4DE2963DFCFC /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.h */,
+				96089CFC953A460CB30631A2 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionAnd.m */,
+				29207BC9A7C24634ADBCEFD0 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.h */,
+				D1693F020268461792D8AD48 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionCollection.m */,
+				9264429B663942C99E3322FF /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.h */,
+				3B73706A47514E7FAE7B0B17 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionEmail.m */,
+				1201ADB652804E8C8A3A3823 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.h */,
+				46156EED05E64FA9A906C425 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNot.m */,
+				D4BC64D492DB4D25A97E58B6 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.h */,
+				7D2AEE5C1C0345489C7429FB /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionNumeric.m */,
+				3CE0ABB890624FA89352AA3D /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.h */,
+				0E52DD66B8A348F6BC20D3B8 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionOr.m */,
+				23EB0B2F34A84A84A0598F73 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.h */,
+				3BA6F8E688384994B7B8FD99 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPasswordStrength.m */,
+				2D3DF612CCCA4987A7BF4D94 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.h */,
+				6C33CF08BB914971BA934879 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPostcodeUK.m */,
+				A0B3678DFA554105A6742203 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.h */,
+				598E6BF8C620454EB3166634 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionPresent.m */,
+				A707122643564C959442BDCE /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.h */,
+				37C8E72A12E64D7E96447EC3 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionRange.m */,
+				57DC31D48E2041AAA93C7C32 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.h */,
+				8CDA9111B85D49DDAC43D2B6 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionShorthandURL.m */,
+				27A68A63A4034F929CF0D7B0 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.h */,
+				DB6AC5B1B21649D6880998E9 /* US2FormValidator/US2FormValidationFramework/source/conditions/US2ConditionURL.m */,
+				DAE95A0D0AA742248C6E3206 /* US2FormValidator/US2FormValidationFramework/source/US2FormValidator.h */,
+				D8720F717FB64ECC91814F96 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.h */,
+				3B3A39CB70834F0281B26A5D /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphabetic.m */,
+				AD2AE2AC643A4FD98E0B215B /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.h */,
+				F954D35EA937436BBE21A58B /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorAlphanumeric.m */,
+				700B7924E6434AA8A80BBA71 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.h */,
+				38302F075C654B78AD821563 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorComposite.m */,
+				CC215717B4FA4475A024A8C8 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.h */,
+				9570A459800A479EA686695E /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorEmail.m */,
+				6D41F8CD0FD24A81B209BE35 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.h */,
+				EACC00634B92458781A653AF /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorNumeric.m */,
+				9BD815913616430D88BA1C10 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.h */,
+				B4B83E39062E4DABAB385832 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPasswordStrength.m */,
+				004EC1D146404F86833AB37E /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.h */,
+				E18402235B564DA9B84B4B0D /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPostcodeUK.m */,
+				9571BF19E82D497395D3CC96 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.h */,
+				A71D36CC433F405F9AF82F35 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorPresent.m */,
+				1B2ACA734FAF4CF8A5AB6776 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.h */,
+				3AE5810A0F264F87B62DC381 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorRange.m */,
+				ABD6075543C44B5793943ADE /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.h */,
+				0E4D6471F5D74881AE20295A /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorShorthandURL.m */,
+				B17312E658CC494B9C1B3AF0 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.h */,
+				FDC34717E6CE44DFB8C5AE97 /* US2FormValidator/US2FormValidationFramework/source/validators/US2ValidatorURL.m */,
+			);
+			name = US2FormValidator;
+			sourceTree = "<group>";
+		};
+		EF99C8A3F5E54E2181E568F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0844B1ED6E5642C9A99EB2E6 /* US2FormValidator */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA6F172A92E040B78CF7EF3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791DB7BAF276400C9E23F01B /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2543153B5934E63A9A0AAD5 /* Pods-ios-experimentsAppTests */ = {
+		54E75859689741168272D388 /* Pods-ios-experimentsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2262BDF457F644A19130C948 /* Build configuration list for PBXNativeTarget "Pods-ios-experimentsAppTests" */;
+			buildConfigurationList = 9C9A35D95AC3418F830A72B2 /* Build configuration list for PBXNativeTarget "Pods-ios-experimentsAppTests" */;
 			buildPhases = (
-				2B6E9EE1EDEF4AAB914D0E51 /* Sources */,
-				43E263CA1CD3470E99C79A75 /* Frameworks */,
+				9B50D4300C9948E6B8F02C81 /* Sources */,
+				0DD8FCB99FFA479B9A136BC3 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -432,49 +690,88 @@
 			);
 			name = "Pods-ios-experimentsAppTests";
 			productName = "Pods-ios-experimentsAppTests";
-			productReference = 94245222E8E447F5AD9A4D38 /* libPods-ios-experimentsAppTests.a */;
+			productReference = 67FDE08F0A4D41648432A43A /* libPods-ios-experimentsAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		666ED838D5874E5B8D7A162C /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86941A01B8C0483EBF5D10F8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				EA83347FD2574C43B6020B7D /* Sources */,
+				1CBE872CA0BC4FF28698960F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 16196DCD8A05426C9407A0F5 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		08EBCFB2F2274FEEBB113C21 /* Project object */ = {
+		A24931C4655D46C5B3E2E924 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 			};
-			buildConfigurationList = 386B6254DA07400C90A11F28 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 63DCE0869C9D49BD9A1F7C4B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2694117B2B4245C3AF6653FC;
-			productRefGroup = C662374B18864CB0A6DF2970 /* Products */;
+			mainGroup = 568596ABF27441A8A7307A81;
+			productRefGroup = 56465B0448794B268A3F1EB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2543153B5934E63A9A0AAD5 /* Pods-ios-experimentsAppTests */,
+				666ED838D5874E5B8D7A162C /* Pods */,
+				54E75859689741168272D388 /* Pods-ios-experimentsAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B6E9EE1EDEF4AAB914D0E51 /* Sources */ = {
+		9B50D4300C9948E6B8F02C81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4872BDE9FB41DA9FB11E58 /* Pods-ios-experimentsAppTests-dummy.m in Sources */,
+				4A8216601E58452091079D76 /* Pods-ios-experimentsAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA83347FD2574C43B6020B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2443FA21CEBF4F8794E8E918 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1E38C050C8C34F5BB6B63FB4 /* Debug */ = {
+		002776DA6E034D468312EA85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E52D468E273457A821F020E /* Pods-ios-experimentsAppTests.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		805FC589C331428BBFE0D451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		887D119955614DB086D0FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E38DBCF1C7B4F0582A52D54 /* Pods-ios-experimentsAppTests.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -500,16 +797,9 @@
 			};
 			name = Debug;
 		};
-		4B18518AD0F64856A1A4FF59 /* Release */ = {
+		ADFA99A0BBCB416B83AD0FFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		4D7B6977738E4AE7A84F85E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E52D468E273457A821F020E /* Pods-ios-experimentsAppTests.xcconfig */;
+			baseConfigurationReference = 9223FE022A8046B78C8B7BB8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -537,35 +827,95 @@
 			};
 			name = Release;
 		};
-		976C5B081E464A5F8A71CF9C /* Debug */ = {
+		CBDFBC7643584502A58AF8C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E38DBCF1C7B4F0582A52D54 /* Pods-ios-experimentsAppTests.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9E4BCE49A7C4683A36B0D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9223FE022A8046B78C8B7BB8 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2262BDF457F644A19130C948 /* Build configuration list for PBXNativeTarget "Pods-ios-experimentsAppTests" */ = {
+		63DCE0869C9D49BD9A1F7C4B /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D7B6977738E4AE7A84F85E4 /* Release */,
-				1E38C050C8C34F5BB6B63FB4 /* Debug */,
+				805FC589C331428BBFE0D451 /* Release */,
+				002776DA6E034D468312EA85 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		386B6254DA07400C90A11F28 /* Build configuration list for PBXProject "Pods" */ = {
+		86941A01B8C0483EBF5D10F8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B18518AD0F64856A1A4FF59 /* Release */,
-				976C5B081E464A5F8A71CF9C /* Debug */,
+				ADFA99A0BBCB416B83AD0FFF /* Release */,
+				E9E4BCE49A7C4683A36B0D32 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9A35D95AC3418F830A72B2 /* Build configuration list for PBXNativeTarget "Pods-ios-experimentsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDFBC7643584502A58AF8C8 /* Release */,
+				887D119955614DB086D0FB47 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 08EBCFB2F2274FEEBB113C21 /* Project object */;
+	rootObject = A24931C4655D46C5B3E2E924 /* Project object */;
 }
