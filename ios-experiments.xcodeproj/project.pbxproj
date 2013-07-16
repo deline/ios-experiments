@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		635160424D1B4144A2C395F1 /* libPods-ios-experimentsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718787D8BCA24F2BB46C2862 /* libPods-ios-experimentsAppTests.a */; };
 		732F5CAD178EBECB0032CB3F /* DNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F5CAC178EBECB0032CB3F /* DNTableViewCell.m */; };
+		7339CCBC17956631003FB949 /* DNValidatingInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */; };
 		734A7EAD178D866C001D26C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAC178D866C001D26C8 /* UIKit.framework */; };
 		734A7EAF178D866C001D26C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAE178D866C001D26C8 /* Foundation.framework */; };
 		734A7EB1178D866C001D26C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EB0178D866C001D26C8 /* CoreGraphics.framework */; };
@@ -25,6 +26,17 @@
 		734A7ED3178D866C001D26C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAE178D866C001D26C8 /* Foundation.framework */; };
 		734A7EDB178D866C001D26C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 734A7ED9178D866C001D26C8 /* InfoPlist.strings */; };
 		734A7EDE178D866C001D26C8 /* ios_experimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 734A7EDD178D866C001D26C8 /* ios_experimentsTests.m */; };
+		7397B1E117956C8700F8316F /* image_icon_validation_invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D317956C8700F8316F /* image_icon_validation_invalid.png */; };
+		7397B1E217956C8700F8316F /* image_icon_validation_invalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D417956C8700F8316F /* image_icon_validation_invalid@2x.png */; };
+		7397B1E317956C8700F8316F /* image_icon_validation_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D517956C8700F8316F /* image_icon_validation_valid.png */; };
+		7397B1E417956C8700F8316F /* image_icon_validation_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D617956C8700F8316F /* image_icon_validation_valid@2x.png */; };
+		7397B1E517956C8700F8316F /* image_icon_validation_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D717956C8700F8316F /* image_icon_validation_waiting.png */; };
+		7397B1E617956C8700F8316F /* image_icon_validation_waiting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D817956C8700F8316F /* image_icon_validation_waiting@2x.png */; };
+		7397B1E717956C8700F8316F /* image_tooltip_invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1D917956C8700F8316F /* image_tooltip_invalid.png */; };
+		7397B1E817956C8700F8316F /* image_tooltip_invalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DA17956C8700F8316F /* image_tooltip_invalid@2x.png */; };
+		7397B1E917956C8700F8316F /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DB17956C8700F8316F /* image_tooltip_valid.png */; };
+		7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */; };
+		7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +54,8 @@
 		718787D8BCA24F2BB46C2862 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-experimentsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F5CAB178EBECB0032CB3F /* DNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTableViewCell.h; sourceTree = "<group>"; };
 		732F5CAC178EBECB0032CB3F /* DNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTableViewCell.m; sourceTree = "<group>"; };
+		7339CCBA17956631003FB949 /* DNValidatingInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingInputViewController.h; sourceTree = "<group>"; };
+		7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingInputViewController.m; sourceTree = "<group>"; };
 		734A7EA9178D866C001D26C8 /* ios-experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734A7EAC178D866C001D26C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		734A7EAE178D866C001D26C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +72,24 @@
 		734A7EC5178D866C001D26C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		734A7EC7178D866C001D26C8 /* DNHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNHomeViewController.h; sourceTree = "<group>"; };
 		734A7EC8178D866C001D26C8 /* DNHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNHomeViewController.m; sourceTree = "<group>"; };
-		734A7ECF178D866C001D26C8 /* ios-experimentsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ios-experimentsTests.octest"; path = "ios-experimentsAppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734A7ECF178D866C001D26C8 /* ios-experimentsAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-experimentsAppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734A7ED0178D866C001D26C8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		734A7ED8178D866C001D26C8 /* ios-experimentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-experimentsTests-Info.plist"; sourceTree = "<group>"; };
 		734A7EDA178D866C001D26C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		734A7EDC178D866C001D26C8 /* ios_experimentsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_experimentsTests.h; sourceTree = "<group>"; };
 		734A7EDD178D866C001D26C8 /* ios_experimentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_experimentsTests.m; sourceTree = "<group>"; };
+		7397B1D317956C8700F8316F /* image_icon_validation_invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_icon_validation_invalid.png; sourceTree = "<group>"; };
+		7397B1D417956C8700F8316F /* image_icon_validation_invalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_icon_validation_invalid@2x.png"; sourceTree = "<group>"; };
+		7397B1D517956C8700F8316F /* image_icon_validation_valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_icon_validation_valid.png; sourceTree = "<group>"; };
+		7397B1D617956C8700F8316F /* image_icon_validation_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_icon_validation_valid@2x.png"; sourceTree = "<group>"; };
+		7397B1D717956C8700F8316F /* image_icon_validation_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_icon_validation_waiting.png; sourceTree = "<group>"; };
+		7397B1D817956C8700F8316F /* image_icon_validation_waiting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_icon_validation_waiting@2x.png"; sourceTree = "<group>"; };
+		7397B1D917956C8700F8316F /* image_tooltip_invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_tooltip_invalid.png; sourceTree = "<group>"; };
+		7397B1DA17956C8700F8316F /* image_tooltip_invalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tooltip_invalid@2x.png"; sourceTree = "<group>"; };
+		7397B1DB17956C8700F8316F /* image_tooltip_valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_tooltip_valid.png; sourceTree = "<group>"; };
+		7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
+		7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingTableViewCell.h; sourceTree = "<group>"; };
+		7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingTableViewCell.m; sourceTree = "<group>"; };
 		7BFD961CC21647F6903CAC87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -98,6 +124,8 @@
 		732F5CAA178EBE540032CB3F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7339CCBA17956631003FB949 /* DNValidatingInputViewController.h */,
+				7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */,
 				734A7EC7178D866C001D26C8 /* DNHomeViewController.h */,
 				734A7EC8178D866C001D26C8 /* DNHomeViewController.m */,
 			);
@@ -109,6 +137,8 @@
 			children = (
 				732F5CAB178EBECB0032CB3F /* DNTableViewCell.h */,
 				732F5CAC178EBECB0032CB3F /* DNTableViewCell.m */,
+				7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */,
+				7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */,
 			);
 			name = CustomUI;
 			sourceTree = "<group>";
@@ -129,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				734A7EA9178D866C001D26C8 /* ios-experiments.app */,
-				734A7ECF178D866C001D26C8 /* ios-experimentsTests.octest */,
+				734A7ECF178D866C001D26C8 /* ios-experimentsAppTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +180,7 @@
 		734A7EB2178D866C001D26C8 /* ios-experiments */ = {
 			isa = PBXGroup;
 			children = (
+				7397B1CE17956C8700F8316F /* graphics */,
 				734A7EBB178D866C001D26C8 /* DNAppDelegate.h */,
 				734A7EBC178D866C001D26C8 /* DNAppDelegate.m */,
 				734A7EC4178D866C001D26C8 /* MainStoryboard.storyboard */,
@@ -193,6 +224,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7397B1CE17956C8700F8316F /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7397B1D317956C8700F8316F /* image_icon_validation_invalid.png */,
+				7397B1D417956C8700F8316F /* image_icon_validation_invalid@2x.png */,
+				7397B1D517956C8700F8316F /* image_icon_validation_valid.png */,
+				7397B1D617956C8700F8316F /* image_icon_validation_valid@2x.png */,
+				7397B1D717956C8700F8316F /* image_icon_validation_waiting.png */,
+				7397B1D817956C8700F8316F /* image_icon_validation_waiting@2x.png */,
+				7397B1D917956C8700F8316F /* image_tooltip_invalid.png */,
+				7397B1DA17956C8700F8316F /* image_tooltip_invalid@2x.png */,
+				7397B1DB17956C8700F8316F /* image_tooltip_valid.png */,
+				7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,7 +281,7 @@
 			);
 			name = "ios-experimentsAppTests";
 			productName = "ios-experimentsTests";
-			productReference = 734A7ECF178D866C001D26C8 /* ios-experimentsTests.octest */;
+			productReference = 734A7ECF178D866C001D26C8 /* ios-experimentsAppTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -256,8 +304,6 @@
 			mainGroup = 734A7EA0178D866C001D26C8;
 			productRefGroup = 734A7EAA178D866C001D26C8 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				734A7EA8178D866C001D26C8 /* ios-experiments */,
@@ -276,6 +322,16 @@
 				734A7EC1178D866C001D26C8 /* Default@2x.png in Resources */,
 				734A7EC3178D866C001D26C8 /* Default-568h@2x.png in Resources */,
 				734A7EC6178D866C001D26C8 /* MainStoryboard.storyboard in Resources */,
+				7397B1E117956C8700F8316F /* image_icon_validation_invalid.png in Resources */,
+				7397B1E217956C8700F8316F /* image_icon_validation_invalid@2x.png in Resources */,
+				7397B1E317956C8700F8316F /* image_icon_validation_valid.png in Resources */,
+				7397B1E417956C8700F8316F /* image_icon_validation_valid@2x.png in Resources */,
+				7397B1E517956C8700F8316F /* image_icon_validation_waiting.png in Resources */,
+				7397B1E617956C8700F8316F /* image_icon_validation_waiting@2x.png in Resources */,
+				7397B1E717956C8700F8316F /* image_tooltip_invalid.png in Resources */,
+				7397B1E817956C8700F8316F /* image_tooltip_invalid@2x.png in Resources */,
+				7397B1E917956C8700F8316F /* image_tooltip_valid.png in Resources */,
+				7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +430,8 @@
 				734A7EBD178D866C001D26C8 /* DNAppDelegate.m in Sources */,
 				734A7EC9178D866C001D26C8 /* DNHomeViewController.m in Sources */,
 				732F5CAD178EBECB0032CB3F /* DNTableViewCell.m in Sources */,
+				7339CCBC17956631003FB949 /* DNValidatingInputViewController.m in Sources */,
+				7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,23 +55,37 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="On7-IC-PHP"/>
+                    <tabBarItem key="tabBarItem" title="Custom Cells" id="On7-IC-PHP"/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="sB5-5H-UlC"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYe-0M-fNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-756" y="-408"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Validating Input View Controller - Validation Framework-->
         <scene sceneID="WiZ-fy-Hiw">
             <objects>
-                <viewController id="W1E-rO-kvH" sceneMemberID="viewController">
+                <viewController id="W1E-rO-kvH" customClass="DNValidatingInputViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tS-h6-NUH">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GtX-1n-0RQ" customClass="US2ValidatorTextField">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GtX-1n-0RQ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="d5X-H0-Vtt"/>
+                            <constraint firstItem="GtX-1n-0RQ" firstAttribute="leading" secondItem="5tS-h6-NUH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="okH-YD-KUC"/>
+                            <constraint firstItem="GtX-1n-0RQ" firstAttribute="top" secondItem="5tS-h6-NUH" secondAttribute="top" constant="20" symbolic="YES" type="default" id="sUo-84-12s"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="n8J-Jo-EDn"/>
+                    <tabBarItem key="tabBarItem" title="Validation Framework" id="n8J-Jo-EDn"/>
+                    <connections>
+                        <outlet property="firstName" destination="GtX-1n-0RQ" id="9VU-6R-FJ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="70h-vD-ewW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,8 +139,17 @@
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
         </class>
+        <class className="DNValidatingInputViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingInputViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="firstName" candidateClass="US2ValidatorTextField"/>
+            </relationships>
+        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="US2ValidatorTextField" superclassName="UITextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/US2ValidatorTextField.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
