@@ -10,4 +10,8 @@
 
 @interface DNValidatingTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *subtitle;
+
 @end

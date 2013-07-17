@@ -91,12 +91,31 @@
             </objects>
             <point key="canvasLocation" x="-750" y="299"/>
         </scene>
+        <!--Validating Form View Controller - Item-->
+        <scene sceneID="pFc-eg-0GW">
+            <objects>
+                <tableViewController id="a6P-Ay-AtJ" customClass="DNValidatingFormViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9UB-hs-tqt">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="a6P-Ay-AtJ" id="n3o-Ri-zHF"/>
+                            <outlet property="delegate" destination="a6P-Ay-AtJ" id="YQR-77-uTb"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="AmN-Xc-hOq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7W-xH-bwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-750" y="969"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aje-g1-N9S">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="nV3-wM-ygW" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Gjz-Cy-dhL"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ZRY-ae-Bb6">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -105,6 +124,7 @@
                     <connections>
                         <segue destination="zY7-5p-pUJ" kind="relationship" relationship="viewControllers" id="hVe-NW-OiK"/>
                         <segue destination="W1E-rO-kvH" kind="relationship" relationship="viewControllers" id="KHG-lL-elj"/>
+                        <segue destination="a6P-Ay-AtJ" kind="relationship" relationship="viewControllers" id="oYg-UO-Bzn"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puD-FP-Sgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,6 +158,9 @@
                 <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
+        </class>
+        <class className="DNValidatingFormViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingFormViewController.h"/>
         </class>
         <class className="DNValidatingInputViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingInputViewController.h"/>

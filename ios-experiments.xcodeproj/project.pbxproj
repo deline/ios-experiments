@@ -37,6 +37,8 @@
 		7397B1E917956C8700F8316F /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DB17956C8700F8316F /* image_tooltip_valid.png */; };
 		7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */; };
 		7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */; };
+		7397B1EF179571E700F8316F /* DNValidatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1EE179571E700F8316F /* DNValidatingTableViewCell.xib */; };
+		7397B1F5179576C100F8316F /* DNValidatingFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1F4179576C100F8316F /* DNValidatingFormViewController.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,9 @@
 		7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
 		7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingTableViewCell.h; sourceTree = "<group>"; };
 		7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingTableViewCell.m; sourceTree = "<group>"; };
+		7397B1EE179571E700F8316F /* DNValidatingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DNValidatingTableViewCell.xib; sourceTree = "<group>"; };
+		7397B1F3179576C100F8316F /* DNValidatingFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingFormViewController.h; sourceTree = "<group>"; };
+		7397B1F4179576C100F8316F /* DNValidatingFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingFormViewController.m; sourceTree = "<group>"; };
 		7BFD961CC21647F6903CAC87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -128,6 +133,8 @@
 				7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */,
 				734A7EC7178D866C001D26C8 /* DNHomeViewController.h */,
 				734A7EC8178D866C001D26C8 /* DNHomeViewController.m */,
+				7397B1F3179576C100F8316F /* DNValidatingFormViewController.h */,
+				7397B1F4179576C100F8316F /* DNValidatingFormViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 				732F5CAC178EBECB0032CB3F /* DNTableViewCell.m */,
 				7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */,
 				7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */,
+				7397B1EE179571E700F8316F /* DNValidatingTableViewCell.xib */,
 			);
 			name = CustomUI;
 			sourceTree = "<group>";
@@ -332,6 +340,7 @@
 				7397B1E817956C8700F8316F /* image_tooltip_invalid@2x.png in Resources */,
 				7397B1E917956C8700F8316F /* image_tooltip_valid.png in Resources */,
 				7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */,
+				7397B1EF179571E700F8316F /* DNValidatingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +441,7 @@
 				732F5CAD178EBECB0032CB3F /* DNTableViewCell.m in Sources */,
 				7339CCBC17956631003FB949 /* DNValidatingInputViewController.m in Sources */,
 				7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */,
+				7397B1F5179576C100F8316F /* DNValidatingFormViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

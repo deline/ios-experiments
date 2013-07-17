@@ -8,6 +8,8 @@
 
 #import "DNValidatingTableViewCell.h"
 
+const CGRect iconButtonFrame = {{0.0, 0.0}, {44.0, 44.0}};
+
 @interface DNValidatingTableViewCell ()
 
 @end
@@ -20,6 +22,7 @@
     if (self) {
         // Initialization code
     }
+
     return self;
 }
 
