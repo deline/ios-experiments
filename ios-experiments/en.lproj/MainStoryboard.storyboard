@@ -33,7 +33,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="w24-hO-bN6"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" red="0.45454738451086951" green="0.45454738451086951" blue="0.45454738451086951" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>

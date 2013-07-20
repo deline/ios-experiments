@@ -7,8 +7,7 @@
 //
 
 #import "DNValidatingTableViewCell.h"
-
-const CGRect iconButtonFrame = {{0.0, 0.0}, {44.0, 44.0}};
+#import "US2ValidatorTextField.h"
 
 @interface DNValidatingTableViewCell ()
 
@@ -33,4 +32,20 @@ const CGRect iconButtonFrame = {{0.0, 0.0}, {44.0, 44.0}};
     // Configure the view for the selected state
 }
 
+- (void)updateStatus:(DNValidatingTableViewCellStatus)status {
+
+    UIImage *icon;
+    switch (status) {
+        case DNValidatingTableViewCellPendingInput:
+            break;
+        case DNValidatingTableViewCellStatusInvalid:
+            icon = [UIImage imageNamed:@"image_icon_invalid.png"];
+            break;
+        case DNValidatingTableViewCellStatusValid:
+            icon = [UIImage imageNamed:@"image_icon_valid.png"];
+            break;
+    }
+
+    self.button.imageView.image = icon;
+}
 @end

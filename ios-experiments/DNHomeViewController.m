@@ -49,7 +49,6 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
     US2Validator *alphabeticValidator = [US2Validator new];
     US2ConditionAlphabetic *condition = [US2ConditionAlphabetic new];
     [alphabeticValidator addCondition:condition];
@@ -85,15 +84,15 @@
 #pragma mark - US2Validator delegate
 
 - (void)validatorUIDidChange:(id <US2ValidatorUIProtocol>)validatorUI {
-
-    UIView *view = (UIView *)validatorUI;
-    DNValidatingTableViewCell *cell = (DNValidatingTableViewCell *)view.superview.superview;
-//    NSLog(@"***** validatorUI: %@", cell.title.text);
-
 }
 
 - (void)validatorUI:(id <US2ValidatorUIProtocol>)validatorUI changedValidState:(BOOL)isValid {
+    UIView *view = (UIView *)validatorUI;
+    DNValidatingTableViewCell *cell = (DNValidatingTableViewCell *)view.superview.superview;
 
+
+    DNValidatingTableViewCellStatus status = isValid ? DNValidatingTableViewCellStatusValid : DNValidatingTableViewCellStatusInvalid;
+    [cell updateStatus:status];
 }
 
 - (void)validatorUI:(id <US2ValidatorUIProtocol>)validatorUI violatedConditions:(US2ConditionCollection *)conditions {

@@ -9,11 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "US2ValidatorTextField.h"
 
+enum
+{
+    DNValidatingTableViewCellStatusValid,
+    DNValidatingTableViewCellStatusInvalid,
+    DNValidatingTableViewCellPendingInput
+};
+typedef NSInteger DNValidatingTableViewCellStatus;
+
 @interface DNValidatingTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *subtitle;
 @property (weak, nonatomic) IBOutlet US2ValidatorTextField *textInput;
+
+- (void)updateStatus:(DNValidatingTableViewCellStatus)status;
 
 @end
