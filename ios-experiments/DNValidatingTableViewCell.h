@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "US2ValidatorTextField.h"
 
 @interface DNValidatingTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *subtitle;
+@property (weak, nonatomic) IBOutlet US2ValidatorTextField *textInput;
 
 @end

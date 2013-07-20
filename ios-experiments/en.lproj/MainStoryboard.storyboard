@@ -8,49 +8,72 @@
         <scene sceneID="Diw-ns-iun">
             <objects>
                 <tableViewController id="zY7-5p-pUJ" customClass="DNHomeViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="83" sectionHeaderHeight="10" sectionFooterHeight="10" id="34c-Uv-0lG">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="34c-Uv-0lG">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="homeTableCellIdentifier" rowHeight="85" id="6Kc-Ow-Pqd" customClass="DNTableViewCell">
-                                <rect key="frame" x="0.0" y="46" width="320" height="87"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="homeTableCellIdentifier" rowHeight="47" id="6Kc-Ow-Pqd" customClass="DNValidatingTableViewCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="10" y="1" width="300" height="84"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMB-us-Sle">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="280" id="Buk-H4-haS"/>
+                                                <constraint firstAttribute="width" constant="80" id="mbv-4Y-gIq"/>
+                                                <constraint firstAttribute="height" constant="21" id="qoj-4L-A4J"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-vH-dJf">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Required" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2O-JF-4yL">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="260" id="oQr-DQ-tOP"/>
+                                                <constraint firstAttribute="height" constant="21" id="w24-hO-bN6"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.45454738451086951" green="0.45454738451086951" blue="0.45454738451086951" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXg-vH-dJf" customClass="US2ValidatorTextField">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="171" id="soZ-6f-6Zm"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
-                                            <connections>
-                                                <outlet property="delegate" destination="6Kc-Ow-Pqd" id="P9f-Dx-1pN"/>
-                                            </connections>
                                         </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrF-Id-KyO">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="0.95176630429999998" green="0.36856369241609971" blue="0.19454719619525468" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="top" secondItem="UMB-us-Sle" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="RyD-dA-J8O"/>
-                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="6" id="ghH-KR-HEp"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="leading" type="default" id="mK8-tD-0xj"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="centerX" secondItem="6Kc-Ow-Pqd" secondAttribute="centerX" type="default" id="pL8-c9-dqt"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="z2O-JF-4yL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="7rG-Vo-nQS"/>
+                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="2" id="7wX-uP-8KK"/>
+                                    <constraint firstItem="UMB-us-Sle" firstAttribute="leading" secondItem="6Kc-Ow-Pqd" secondAttribute="leading" constant="10" id="9S6-B1-43a"/>
+                                    <constraint firstItem="z2O-JF-4yL" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="20" type="default" id="AcU-DH-vl5"/>
+                                    <constraint firstItem="QrF-Id-KyO" firstAttribute="centerY" secondItem="6Kc-Ow-Pqd" secondAttribute="centerY" type="default" id="GFr-Nw-8x1"/>
+                                    <constraint firstItem="z2O-JF-4yL" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="leading" type="default" id="IM0-bz-1sg"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="OdU-O4-m1Q"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="baseline" secondItem="UMB-us-Sle" secondAttribute="baseline" type="default" id="XPI-b6-zv9"/>
+                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="centerY" secondItem="QrF-Id-KyO" secondAttribute="centerY" type="default" id="vUt-uv-CJw"/>
+                                    <constraint firstAttribute="trailing" secondItem="QrF-Id-KyO" secondAttribute="trailing" constant="20" type="default" id="xaI-Aa-8iE"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="label" destination="UMB-us-Sle" id="heI-Iu-oEe"/>
-                                    <outlet property="textField" destination="MXg-vH-dJf" id="Fln-Mt-DiC"/>
+                                    <outlet property="button" destination="QrF-Id-KyO" id="Whu-ya-e0D"/>
+                                    <outlet property="subtitle" destination="z2O-JF-4yL" id="Ldu-lc-8KT"/>
+                                    <outlet property="textInput" destination="MXg-vH-dJf" id="xan-aS-fEf"/>
+                                    <outlet property="title" destination="UMB-us-Sle" id="S8f-vT-Jru"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -152,13 +175,6 @@
         <class className="DNHomeViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNHomeViewController.h"/>
         </class>
-        <class className="DNTableViewCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DNTableViewCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
         <class className="DNValidatingFormViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingFormViewController.h"/>
         </class>
@@ -166,6 +182,15 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingInputViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="firstName" candidateClass="US2ValidatorTextField"/>
+            </relationships>
+        </class>
+        <class className="DNValidatingTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DNValidatingTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="subtitle" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textInput" candidateClass="US2ValidatorTextField"/>
+                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

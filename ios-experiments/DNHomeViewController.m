@@ -7,7 +7,7 @@
 //
 
 #import "DNHomeViewController.h"
-#import "DNTableViewCell.h"
+#import "DNValidatingTableViewCell.h"
 
 @interface DNHomeViewController ()
 
@@ -45,13 +45,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"homeTableCellIdentifier";
 
-    DNTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[DNTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
+    DNValidatingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+//    if (cell == nil) {
+//        cell = [[DNTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+//    }
 
-    cell.label.text = @"This is the label";
-    cell.textField.text = @"This is the input";    
+//    cell.label.text = @"This is the label";
+//    cell.textField.text = @"This is the input";    
  
     return cell;
 }
