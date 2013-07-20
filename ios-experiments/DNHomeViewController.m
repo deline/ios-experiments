@@ -11,6 +11,8 @@
 
 @interface DNHomeViewController ()
 
+@property NSMutableArray *fields;
+
 @end
 
 @implementation DNHomeViewController
@@ -18,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    self.fields = [NSMutableArray arrayWithObjects:@"First name", @"Last name", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,11 +33,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return [self.fields count];
 }
 
 
@@ -46,13 +50,11 @@
     static NSString *CellIdentifier = @"homeTableCellIdentifier";
 
     DNValidatingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    if (cell == nil) {
-//        cell = [[DNTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-//    }
+    NSString *fieldName = [self.fields objectAtIndex:indexPath.row];
+    cell.title.text = fieldName;
+    cell.subtitle.text = @"Required";
+    cell.textInput.placeholder = fieldName;
 
-//    cell.label.text = @"This is the label";
-//    cell.textField.text = @"This is the input";    
- 
     return cell;
 }
 
