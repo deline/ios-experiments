@@ -8,6 +8,8 @@
 
 #import "DNHomeViewController.h"
 #import "DNValidatingTableViewCell.h"
+#import "US2Validator.h"
+#import "US2ConditionAlphabetic.h"
 
 @interface DNHomeViewController ()
 
@@ -47,15 +49,55 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"homeTableCellIdentifier";
 
-    DNValidatingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    NSString *fieldName = [self.fields objectAtIndex:indexPath.row];
-    cell.title.text = fieldName;
+    US2Validator *alphabeticValidator = [US2Validator new];
+    US2ConditionAlphabetic *condition = [US2ConditionAlphabetic new];
+    [alphabeticValidator addCondition:condition];
+
+
+    NSString *field = [self.fields objectAtIndex:indexPath.row];
+    return [self validatingTableViewCellForTableView:tableView
+                                            forField:field
+                                       withValidator:alphabeticValidator];
+}
+
+- (UITableViewCell *)validatingTableViewCellForTableView:(UITableView *)tableView forField:(NSString *)field withValidator:(US2Validator *)validator {
+    static NSString *cellIdentifier = @"homeTableCellIdentifier";
+    DNValidatingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    cell.title.text = field;
     cell.subtitle.text = @"Required";
-    cell.textInput.placeholder = fieldName;
+    cell.textInput.placeholder = field;
+    cell.textInput.validator = validator;
+    cell.textInput.validatorUIDelegate = self;
 
     return cell;
+}
+
+#pragma mark - Text field delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+
+#pragma mark - US2Validator delegate
+
+- (void)validatorUIDidChange:(id <US2ValidatorUIProtocol>)validatorUI {
+
+    UIView *view = (UIView *)validatorUI;
+    DNValidatingTableViewCell *cell = (DNValidatingTableViewCell *)view.superview.superview;
+//    NSLog(@"***** validatorUI: %@", cell.title.text);
+
+}
+
+- (void)validatorUI:(id <US2ValidatorUIProtocol>)validatorUI changedValidState:(BOOL)isValid {
+
+}
+
+- (void)validatorUI:(id <US2ValidatorUIProtocol>)validatorUI violatedConditions:(US2ConditionCollection *)conditions {
+    NSLog(@"***** violated conditions: %@", conditions);
 }
 
 

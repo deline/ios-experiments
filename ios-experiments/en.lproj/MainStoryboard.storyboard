@@ -44,10 +44,14 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrF-Id-KyO">
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                            <state key="normal">
-                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrF-Id-KyO">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="53t-wm-LAL"/>
+                                                <constraint firstAttribute="height" constant="30" id="czm-3S-Loa"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                            <state key="normal" image="image_icon_info.png">
+                                                <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <state key="highlighted">
@@ -58,15 +62,15 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="2" id="7wX-uP-8KK"/>
                                     <constraint firstItem="UMB-us-Sle" firstAttribute="leading" secondItem="6Kc-Ow-Pqd" secondAttribute="leading" constant="10" id="9S6-B1-43a"/>
                                     <constraint firstItem="z2O-JF-4yL" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="20" type="default" id="AcU-DH-vl5"/>
                                     <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="z2O-JF-4yL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Cvg-m6-DB0"/>
                                     <constraint firstItem="z2O-JF-4yL" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="leading" type="default" id="IM0-bz-1sg"/>
+                                    <constraint firstItem="QrF-Id-KyO" firstAttribute="top" secondItem="MXg-vH-dJf" secondAttribute="top" type="default" id="Lh5-RI-gYl"/>
+                                    <constraint firstItem="QrF-Id-KyO" firstAttribute="leading" secondItem="MXg-vH-dJf" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="RR6-Nw-3IG"/>
+                                    <constraint firstItem="UMB-us-Sle" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="2" id="VlR-8E-XHR"/>
                                     <constraint firstItem="MXg-vH-dJf" firstAttribute="leading" secondItem="UMB-us-Sle" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="XzB-rI-QV4"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="9" id="evs-Et-ykp"/>
-                                    <constraint firstItem="MXg-vH-dJf" firstAttribute="centerY" secondItem="QrF-Id-KyO" secondAttribute="centerY" type="default" id="vUt-uv-CJw"/>
-                                    <constraint firstAttribute="trailing" secondItem="QrF-Id-KyO" secondAttribute="trailing" constant="20" type="default" id="xaI-Aa-8iE"/>
+                                    <constraint firstItem="QrF-Id-KyO" firstAttribute="top" secondItem="6Kc-Ow-Pqd" secondAttribute="top" constant="9" id="ivF-9P-MV6"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="button" destination="QrF-Id-KyO" id="Whu-ya-e0D"/>
@@ -150,6 +154,9 @@
             <point key="canvasLocation" x="-1742" y="-6"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="image_icon_info.png" width="44" height="44"/>
+    </resources>
     <classes>
         <class className="DNHomeViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNHomeViewController.h"/>

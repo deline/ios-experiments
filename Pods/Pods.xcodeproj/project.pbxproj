@@ -1769,6 +1769,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/**";
 			};
 			name = Debug;
 		};
@@ -1798,6 +1799,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
