@@ -24,6 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     self.fields = [NSMutableArray arrayWithObjects:@"First name", @"Last name", nil];
+    self.navigationController.navigationBar.tintColor = [UIColor grayColor];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,9 +44,9 @@
 }
 
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return @"Section Header";
-}
+//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+//    return @"Section Header";
+//}
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
