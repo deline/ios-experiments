@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "US2ValidatorUIDelegate.h"
 
-@interface DNHomeViewController : UITableViewController<UITableViewDataSource, US2ValidatorUIDelegate, UITextFieldDelegate>
+@interface DNHomeViewController : UITableViewController<US2ValidatorUIDelegate, UITextFieldDelegate>
 
 @end

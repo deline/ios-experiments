@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		635160424D1B4144A2C395F1 /* libPods-ios-experimentsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718787D8BCA24F2BB46C2862 /* libPods-ios-experimentsAppTests.a */; };
-		7339CCBC17956631003FB949 /* DNValidatingInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */; };
+		7339CCBC17956631003FB949 /* DNModalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339CCBB17956631003FB949 /* DNModalHomeViewController.m */; };
 		734A7EAD178D866C001D26C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAC178D866C001D26C8 /* UIKit.framework */; };
 		734A7EAF178D866C001D26C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAE178D866C001D26C8 /* Foundation.framework */; };
 		734A7EB1178D866C001D26C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EB0178D866C001D26C8 /* CoreGraphics.framework */; };
@@ -36,6 +36,8 @@
 		7397B1E917956C8700F8316F /* image_tooltip_valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DB17956C8700F8316F /* image_tooltip_valid.png */; };
 		7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */; };
 		7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */; };
+		73D488D217A1419600F983C2 /* DNModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D488D117A1419600F983C2 /* DNModalViewController.m */; };
+		73DC625517A7DFA0000368EC /* DNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625417A7DFA0000368EC /* DNTabBarController.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +53,8 @@
 
 /* Begin PBXFileReference section */
 		718787D8BCA24F2BB46C2862 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-experimentsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7339CCBA17956631003FB949 /* DNValidatingInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingInputViewController.h; sourceTree = "<group>"; };
-		7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingInputViewController.m; sourceTree = "<group>"; };
+		7339CCBA17956631003FB949 /* DNModalHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNModalHomeViewController.h; sourceTree = "<group>"; };
+		7339CCBB17956631003FB949 /* DNModalHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModalHomeViewController.m; sourceTree = "<group>"; };
 		734A7EA9178D866C001D26C8 /* ios-experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734A7EAC178D866C001D26C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		734A7EAE178D866C001D26C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,10 @@
 		7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tooltip_valid@2x.png"; sourceTree = "<group>"; };
 		7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNValidatingTableViewCell.h; sourceTree = "<group>"; };
 		7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingTableViewCell.m; sourceTree = "<group>"; };
+		73D488D017A1419600F983C2 /* DNModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNModalViewController.h; sourceTree = "<group>"; };
+		73D488D117A1419600F983C2 /* DNModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModalViewController.m; sourceTree = "<group>"; };
+		73DC625317A7DFA0000368EC /* DNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTabBarController.h; sourceTree = "<group>"; };
+		73DC625417A7DFA0000368EC /* DNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTabBarController.m; sourceTree = "<group>"; };
 		7BFD961CC21647F6903CAC87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -121,10 +127,14 @@
 		732F5CAA178EBE540032CB3F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7339CCBA17956631003FB949 /* DNValidatingInputViewController.h */,
-				7339CCBB17956631003FB949 /* DNValidatingInputViewController.m */,
+				7339CCBA17956631003FB949 /* DNModalHomeViewController.h */,
+				7339CCBB17956631003FB949 /* DNModalHomeViewController.m */,
 				734A7EC7178D866C001D26C8 /* DNHomeViewController.h */,
 				734A7EC8178D866C001D26C8 /* DNHomeViewController.m */,
+				73D488D017A1419600F983C2 /* DNModalViewController.h */,
+				73D488D117A1419600F983C2 /* DNModalViewController.m */,
+				73DC625317A7DFA0000368EC /* DNTabBarController.h */,
+				73DC625417A7DFA0000368EC /* DNTabBarController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -424,8 +434,10 @@
 				734A7EB9178D866C001D26C8 /* main.m in Sources */,
 				734A7EBD178D866C001D26C8 /* DNAppDelegate.m in Sources */,
 				734A7EC9178D866C001D26C8 /* DNHomeViewController.m in Sources */,
-				7339CCBC17956631003FB949 /* DNValidatingInputViewController.m in Sources */,
+				7339CCBC17956631003FB949 /* DNModalHomeViewController.m in Sources */,
 				7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */,
+				73D488D217A1419600F983C2 /* DNModalViewController.m in Sources */,
+				73DC625517A7DFA0000368EC /* DNTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
