@@ -10,6 +10,7 @@
 #import "DNValidatingTableViewCell.h"
 #import "US2Validator.h"
 #import "US2ConditionAlphabetic.h"
+#import "DNPerson.h"
 
 @interface DNHomeViewController ()
 
@@ -25,6 +26,10 @@
 
     self.fields = [NSMutableArray arrayWithObjects:@"First name", @"Last name", nil];
     self.navigationController.navigationBar.tintColor = [UIColor grayColor];
+
+    DNPerson *person = [[DNPerson alloc] initWithFirstName:@"A" lastName:@"B"];
+    
+    NSLog(@"HomeController %@", person.description);
 }
 
 - (void)didReceiveMemoryWarning {

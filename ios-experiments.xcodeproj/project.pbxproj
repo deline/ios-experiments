@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730413B817AA91120047BDA0 /* DNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B06699C06145E4BBBBE24691 /* DNPerson.m */; };
 		7339CCBC17956631003FB949 /* DNModalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339CCBB17956631003FB949 /* DNModalHomeViewController.m */; };
 		734A7EAD178D866C001D26C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAC178D866C001D26C8 /* UIKit.framework */; };
 		734A7EAF178D866C001D26C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAE178D866C001D26C8 /* Foundation.framework */; };
@@ -46,7 +47,7 @@
 		73DC625B17A7E853000368EC /* DNActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625A17A7E853000368EC /* DNActivityViewController.m */; };
 		73DC625E17A7ED67000368EC /* DNActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625D17A7ED67000368EC /* DNActivity.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
-		B06695D9872BA61775BDAE8B /* DNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B06699C06145E4BBBBE24691 /* DNPerson.m */; };
+		B0669C9BE374CF79A0E444EF /* DNPersonMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B06696E5A7C9F0DFFB2A0928 /* DNPersonMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +102,8 @@
 		73D488D117A1419600F983C2 /* DNModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModalViewController.m; sourceTree = "<group>"; };
 		73DBCA8C17AA620E009AA8C2 /* DNMockingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMockingTest.h; sourceTree = "<group>"; };
 		73DBCA8D17AA620E009AA8C2 /* DNMockingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMockingTest.m; sourceTree = "<group>"; };
-		73DBCA9D17AA6E80009AA8C2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		73DBCA9F17AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-ios-experimentsAppTests.a"; path = "Pods/build/Release-iphoneos/libPods-ios-experimentsAppTests.a"; sourceTree = "<group>"; };
+		73DBCA9D17AA6E80009AA8C2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		73DBCA9F17AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ios-experimentsAppTests.a"; path = "Pods/build/Release-iphoneos/libPods-ios-experimentsAppTests.a"; sourceTree = "<group>"; };
 		73DC625317A7DFA0000368EC /* DNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTabBarController.h; sourceTree = "<group>"; };
 		73DC625417A7DFA0000368EC /* DNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTabBarController.m; sourceTree = "<group>"; };
 		73DC625617A7E435000368EC /* DNActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNActionSheet.h; sourceTree = "<group>"; };
@@ -115,9 +116,11 @@
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B06690241096D26E317D0B7C /* ClassUnderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassUnderTest.h; sourceTree = "<group>"; };
-		B06691F6EC2E6DC62E265D73 /* DNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPerson.h; sourceTree = "<group>"; };
+		B06691F6EC2E6DC62E265D73 /* DNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DNPerson.h; path = "ios-experimentsTests/DNPerson.h"; sourceTree = SOURCE_ROOT; };
 		B06696ABFEF5384E8C5712DC /* ClassBeingMocked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassBeingMocked.m; sourceTree = "<group>"; };
-		B06699C06145E4BBBBE24691 /* DNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPerson.m; sourceTree = "<group>"; };
+		B06696E5A7C9F0DFFB2A0928 /* DNPersonMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPersonMatcher.m; sourceTree = "<group>"; };
+		B06699C06145E4BBBBE24691 /* DNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DNPerson.m; path = "ios-experimentsTests/DNPerson.m"; sourceTree = SOURCE_ROOT; };
+		B0669B53FFEEF99F835C4ED0 /* DNPersonMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPersonMatcher.h; sourceTree = "<group>"; };
 		B0669BF7C96E4B15052BC296 /* ClassUnderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassUnderTest.m; sourceTree = "<group>"; };
 		B0669CE0698C047A20F56248 /* ClassBeingMocked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassBeingMocked.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +221,8 @@
 		734A7EB2178D866C001D26C8 /* ios-experiments */ = {
 			isa = PBXGroup;
 			children = (
+				B06699C06145E4BBBBE24691 /* DNPerson.m */,
+				B06691F6EC2E6DC62E265D73 /* DNPerson.h */,
 				7397B1CE17956C8700F8316F /* graphics */,
 				734A7EBB178D866C001D26C8 /* DNAppDelegate.h */,
 				734A7EBC178D866C001D26C8 /* DNAppDelegate.m */,
@@ -255,8 +260,8 @@
 				B06690241096D26E317D0B7C /* ClassUnderTest.h */,
 				B06696ABFEF5384E8C5712DC /* ClassBeingMocked.m */,
 				B0669CE0698C047A20F56248 /* ClassBeingMocked.h */,
-				B06699C06145E4BBBBE24691 /* DNPerson.m */,
-				B06691F6EC2E6DC62E265D73 /* DNPerson.h */,
+				B06696E5A7C9F0DFFB2A0928 /* DNPersonMatcher.m */,
+				B0669B53FFEEF99F835C4ED0 /* DNPersonMatcher.h */,
 			);
 			path = "ios-experimentsTests";
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730413B817AA91120047BDA0 /* DNPerson.m in Sources */,
 				734A7EB9178D866C001D26C8 /* main.m in Sources */,
 				734A7EBD178D866C001D26C8 /* DNAppDelegate.m in Sources */,
 				734A7EC9178D866C001D26C8 /* DNHomeViewController.m in Sources */,
@@ -493,7 +499,7 @@
 				73DBCA9C17AA6BDE009AA8C2 /* ClassBeingMocked.m in Sources */,
 				734A7EDE178D866C001D26C8 /* ios_experimentsTests.m in Sources */,
 				73DBCA8E17AA620E009AA8C2 /* DNMockingTest.m in Sources */,
-				B06695D9872BA61775BDAE8B /* DNPerson.m in Sources */,
+				B0669C9BE374CF79A0E444EF /* DNPersonMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +637,7 @@
 				INFOPLIST_FILE = "ios-experimentsTests/ios-experimentsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -649,6 +656,7 @@
 				INFOPLIST_FILE = "ios-experimentsTests/ios-experimentsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;

@@ -26,9 +26,6 @@
 
 - (void)doSomething {
     DNPerson *person = [[DNPerson alloc] initWithFirstName:@"Deline" lastName:@"Neo"];
-
-    NSLog(@"Person is: %@ %@", person.firstName, person.lastName);
-
     [self.object sayHello:person];
 }
 @end
