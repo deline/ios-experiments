@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635160424D1B4144A2C395F1 /* libPods-ios-experimentsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718787D8BCA24F2BB46C2862 /* libPods-ios-experimentsAppTests.a */; };
 		7339CCBC17956631003FB949 /* DNModalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339CCBB17956631003FB949 /* DNModalHomeViewController.m */; };
 		734A7EAD178D866C001D26C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAC178D866C001D26C8 /* UIKit.framework */; };
 		734A7EAF178D866C001D26C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EAE178D866C001D26C8 /* Foundation.framework */; };
@@ -37,11 +36,17 @@
 		7397B1EA17956C8700F8316F /* image_tooltip_valid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7397B1DC17956C8700F8316F /* image_tooltip_valid@2x.png */; };
 		7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */; };
 		73D488D217A1419600F983C2 /* DNModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D488D117A1419600F983C2 /* DNModalViewController.m */; };
+		73DBCA8E17AA620E009AA8C2 /* DNMockingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DBCA8D17AA620E009AA8C2 /* DNMockingTest.m */; };
+		73DBCA9A17AA6ADB009AA8C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734A7EB0178D866C001D26C8 /* CoreGraphics.framework */; };
+		73DBCA9B17AA6BDE009AA8C2 /* ClassUnderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0669BF7C96E4B15052BC296 /* ClassUnderTest.m */; };
+		73DBCA9C17AA6BDE009AA8C2 /* ClassBeingMocked.m in Sources */ = {isa = PBXBuildFile; fileRef = B06696ABFEF5384E8C5712DC /* ClassBeingMocked.m */; };
+		73DBCAA017AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DBCA9F17AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a */; };
 		73DC625517A7DFA0000368EC /* DNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625417A7DFA0000368EC /* DNTabBarController.m */; };
 		73DC625817A7E435000368EC /* DNActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625717A7E435000368EC /* DNActionSheet.m */; };
 		73DC625B17A7E853000368EC /* DNActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625A17A7E853000368EC /* DNActivityViewController.m */; };
 		73DC625E17A7ED67000368EC /* DNActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625D17A7ED67000368EC /* DNActivity.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
+		B06695D9872BA61775BDAE8B /* DNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B06699C06145E4BBBBE24691 /* DNPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +99,10 @@
 		7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNValidatingTableViewCell.m; sourceTree = "<group>"; };
 		73D488D017A1419600F983C2 /* DNModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNModalViewController.h; sourceTree = "<group>"; };
 		73D488D117A1419600F983C2 /* DNModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModalViewController.m; sourceTree = "<group>"; };
+		73DBCA8C17AA620E009AA8C2 /* DNMockingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMockingTest.h; sourceTree = "<group>"; };
+		73DBCA8D17AA620E009AA8C2 /* DNMockingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMockingTest.m; sourceTree = "<group>"; };
+		73DBCA9D17AA6E80009AA8C2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		73DBCA9F17AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-ios-experimentsAppTests.a"; path = "Pods/build/Release-iphoneos/libPods-ios-experimentsAppTests.a"; sourceTree = "<group>"; };
 		73DC625317A7DFA0000368EC /* DNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTabBarController.h; sourceTree = "<group>"; };
 		73DC625417A7DFA0000368EC /* DNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTabBarController.m; sourceTree = "<group>"; };
 		73DC625617A7E435000368EC /* DNActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNActionSheet.h; sourceTree = "<group>"; };
@@ -105,6 +114,12 @@
 		7BFD961CC21647F6903CAC87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B06690241096D26E317D0B7C /* ClassUnderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassUnderTest.h; sourceTree = "<group>"; };
+		B06691F6EC2E6DC62E265D73 /* DNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPerson.h; sourceTree = "<group>"; };
+		B06696ABFEF5384E8C5712DC /* ClassBeingMocked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassBeingMocked.m; sourceTree = "<group>"; };
+		B06699C06145E4BBBBE24691 /* DNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPerson.m; sourceTree = "<group>"; };
+		B0669BF7C96E4B15052BC296 /* ClassUnderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassUnderTest.m; sourceTree = "<group>"; };
+		B0669CE0698C047A20F56248 /* ClassBeingMocked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassBeingMocked.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +138,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DBCAA017AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a in Frameworks */,
+				73DBCA9A17AA6ADB009AA8C2 /* CoreGraphics.framework in Frameworks */,
 				734A7ED1178D866C001D26C8 /* SenTestingKit.framework in Frameworks */,
 				734A7ED2178D866C001D26C8 /* UIKit.framework in Frameworks */,
 				734A7ED3178D866C001D26C8 /* Foundation.framework in Frameworks */,
-				635160424D1B4144A2C395F1 /* libPods-ios-experimentsAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +182,8 @@
 		734A7EA0178D866C001D26C8 = {
 			isa = PBXGroup;
 			children = (
+				73DBCA9F17AA6E8F009AA8C2 /* libPods-ios-experimentsAppTests.a */,
+				73DBCA9D17AA6E80009AA8C2 /* libPods.a */,
 				734A7EB2178D866C001D26C8 /* ios-experiments */,
 				734A7ED6178D866C001D26C8 /* ios-experimentsTests */,
 				734A7EAB178D866C001D26C8 /* Frameworks */,
@@ -231,6 +249,14 @@
 				734A7EDC178D866C001D26C8 /* ios_experimentsTests.h */,
 				734A7EDD178D866C001D26C8 /* ios_experimentsTests.m */,
 				734A7ED7178D866C001D26C8 /* Supporting Files */,
+				73DBCA8C17AA620E009AA8C2 /* DNMockingTest.h */,
+				73DBCA8D17AA620E009AA8C2 /* DNMockingTest.m */,
+				B0669BF7C96E4B15052BC296 /* ClassUnderTest.m */,
+				B06690241096D26E317D0B7C /* ClassUnderTest.h */,
+				B06696ABFEF5384E8C5712DC /* ClassBeingMocked.m */,
+				B0669CE0698C047A20F56248 /* ClassBeingMocked.h */,
+				B06699C06145E4BBBBE24691 /* DNPerson.m */,
+				B06691F6EC2E6DC62E265D73 /* DNPerson.h */,
 			);
 			path = "ios-experimentsTests";
 			sourceTree = "<group>";
@@ -463,7 +489,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DBCA9B17AA6BDE009AA8C2 /* ClassUnderTest.m in Sources */,
+				73DBCA9C17AA6BDE009AA8C2 /* ClassBeingMocked.m in Sources */,
 				734A7EDE178D866C001D26C8 /* ios_experimentsTests.m in Sources */,
+				73DBCA8E17AA620E009AA8C2 /* DNMockingTest.m in Sources */,
+				B06695D9872BA61775BDAE8B /* DNPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
