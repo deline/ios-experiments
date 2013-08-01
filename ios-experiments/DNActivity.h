@@ -1,5 +1,5 @@
 //
-//  DNTabBarController.h
+//  DNActivity.h
 //  ios-experiments
 //
 //  Created by Deline Neo on 30/07/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DNTabBarController : UITabBarController<UITabBarControllerDelegate, UIActionSheetDelegate>
+@interface DNActivity : UIActivity
 
 @end

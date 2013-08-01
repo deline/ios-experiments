@@ -38,6 +38,9 @@
 		7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */; };
 		73D488D217A1419600F983C2 /* DNModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D488D117A1419600F983C2 /* DNModalViewController.m */; };
 		73DC625517A7DFA0000368EC /* DNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625417A7DFA0000368EC /* DNTabBarController.m */; };
+		73DC625817A7E435000368EC /* DNActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625717A7E435000368EC /* DNActionSheet.m */; };
+		73DC625B17A7E853000368EC /* DNActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625A17A7E853000368EC /* DNActivityViewController.m */; };
+		73DC625E17A7ED67000368EC /* DNActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC625D17A7ED67000368EC /* DNActivity.m */; };
 		76B17FD2B8F94463B004C196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD961CC21647F6903CAC87 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,12 @@
 		73D488D117A1419600F983C2 /* DNModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModalViewController.m; sourceTree = "<group>"; };
 		73DC625317A7DFA0000368EC /* DNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTabBarController.h; sourceTree = "<group>"; };
 		73DC625417A7DFA0000368EC /* DNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTabBarController.m; sourceTree = "<group>"; };
+		73DC625617A7E435000368EC /* DNActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNActionSheet.h; sourceTree = "<group>"; };
+		73DC625717A7E435000368EC /* DNActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNActionSheet.m; sourceTree = "<group>"; };
+		73DC625917A7E853000368EC /* DNActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNActivityViewController.h; sourceTree = "<group>"; };
+		73DC625A17A7E853000368EC /* DNActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNActivityViewController.m; sourceTree = "<group>"; };
+		73DC625C17A7ED67000368EC /* DNActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNActivity.h; sourceTree = "<group>"; };
+		73DC625D17A7ED67000368EC /* DNActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNActivity.m; sourceTree = "<group>"; };
 		7BFD961CC21647F6903CAC87 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4128BF661E4365BB37704E /* Pods/Pods-ios-experimentsAppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ios-experimentsAppTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AA78AEAF81B94136BC2B6B65 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -135,6 +144,8 @@
 				73D488D117A1419600F983C2 /* DNModalViewController.m */,
 				73DC625317A7DFA0000368EC /* DNTabBarController.h */,
 				73DC625417A7DFA0000368EC /* DNTabBarController.m */,
+				73DC625917A7E853000368EC /* DNActivityViewController.h */,
+				73DC625A17A7E853000368EC /* DNActivityViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +155,10 @@
 			children = (
 				7397B1EB1795711200F8316F /* DNValidatingTableViewCell.h */,
 				7397B1EC1795711200F8316F /* DNValidatingTableViewCell.m */,
+				73DC625617A7E435000368EC /* DNActionSheet.h */,
+				73DC625717A7E435000368EC /* DNActionSheet.m */,
+				73DC625C17A7ED67000368EC /* DNActivity.h */,
+				73DC625D17A7ED67000368EC /* DNActivity.m */,
 			);
 			name = CustomUI;
 			sourceTree = "<group>";
@@ -438,6 +453,9 @@
 				7397B1ED1795711200F8316F /* DNValidatingTableViewCell.m in Sources */,
 				73D488D217A1419600F983C2 /* DNModalViewController.m in Sources */,
 				73DC625517A7DFA0000368EC /* DNTabBarController.m in Sources */,
+				73DC625817A7E435000368EC /* DNActionSheet.m in Sources */,
+				73DC625B17A7E853000368EC /* DNActivityViewController.m in Sources */,
+				73DC625E17A7ED67000368EC /* DNActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +530,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -536,7 +554,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -550,6 +568,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-experiments/ios-experiments-Prefix.pch";
 				INFOPLIST_FILE = "ios-experiments/ios-experiments-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -562,6 +581,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-experiments/ios-experiments-Prefix.pch";
 				INFOPLIST_FILE = "ios-experiments/ios-experiments-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
